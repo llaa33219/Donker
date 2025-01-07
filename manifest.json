@@ -1,0 +1,34 @@
+{
+  "name": "Donker",
+  "description": "엔트리 다크테마",
+  "version": "0.1",
+  "manifest_version": 3,
+
+  "host_permissions": [
+    "https://playentry.org/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["https://playentry.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*",
+        "style.css",
+        "style-ws.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+
+  "icons": {
+    "16": "icon/16.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  }
+}
