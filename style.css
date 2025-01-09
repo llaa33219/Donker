@@ -2917,3 +2917,20 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     background-color: rgb(30, 30, 30) !important;
     border: none;
 }
+.css-11aguhf strong {
+    display: block;
+    margin-top: 36px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    line-height: 38px;
+}
+.css-11aguhf p {
+    margin-top: 18px;
+    font-size: 18px;
+    color: #999;
+    font-weight: normal;
+    text-align: center;
+    line-height: 26px;
+}
