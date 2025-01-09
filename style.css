@@ -104,7 +104,7 @@
     margin: 0px 6px 0px 0px;
     border: 1px solid rgb(233, 233, 233);
     border-radius: 50%;
-    background-image: url(/img/IcoCaution2.svg);
+    background-image: url(images/IcoCaution2.svg);
     background-size: 16px;
     vertical-align: top;
     content: "";
@@ -2474,7 +2474,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     background: url(images/IcoTopButton.svg) no-repeat;
 }
 .css-1v5kn9b {
-    background: url(images/IcoTextArrow4.svg) 0% 0% / 50px no-repeat;
+    background: url(images/IcoTopButton.svg) 0% 0% / 50px no-repeat;
 }
 .css-lewqez .sjt {
     display: block;
@@ -2703,4 +2703,217 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-7cnakn .btn_box a {
     background-color: rgb(199, 0, 199) !important;
+}
+.css-5d9j6e {
+    padding: 36px;
+    background-color: rgb(43, 43, 43);
+}
+.css-fh9ril {
+    height: 78px;
+    background-color: rgb(199, 0, 199);
+    text-align: center;
+}
+.css-8jcx1j {
+    cursor: pointer;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(199, 0, 199);
+}
+.css-1yl52d em {
+    display: block;
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+.css-lo2irn strong::after {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 12px;
+    background-color: rgb(104, 91, 32);
+    content: "";
+}
+.css-1kt22f9 {
+    margin-top: 18px;
+    padding: 24px 27px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 10px;
+    background-color: rgb(58, 58, 58);
+    font-size: 14px;
+    color: rgb(228, 228, 228);
+    line-height: 20px;
+}
+.css-1t2q9uf {
+    position: relative;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    background-color: rgb(99, 99, 99);
+    padding: 27px 27px 20px;
+}
+.css-1t2q9uf:hover {
+    border-color: rgb(199, 0, 199);
+}
+.css-1ju08xa {
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+    padding: 0px 18px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(233, 233, 233);
+    line-height: 30px;
+    vertical-align: top;
+}
+.css-1ju08xa::before {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: top;
+    content: "";
+    margin: 8px 6px 0px 0px;
+    background: url(images/IcoCaution2.svg) 0% 0% / 14px no-repeat;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 50%;
+}
+.css-13yi6pt {
+    position: relative;
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 20px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-agpf19 {
+    padding: 42px 0px 45px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 22px;
+}
+.css-19cz2xs input[type="text"], .css-19cz2xs input[type="password"] {
+    width: 100%;
+    height: 48px;
+    padding: 0px 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(53, 53, 53);
+    background-color: rgb(59, 59, 59);
+    border-radius: 4px;
+    outline: 0px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 16px;
+    text-transform: none;
+}
+.css-1de5ifq {
+    display: block;
+    margin: 9px auto 0px;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: left;
+    color: rgb(233, 233, 233);
+}
+.css-1w9ehtn {
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px 48px;
+    height: 42px;
+    margin: 0px 4px;
+    border-radius: 21px;
+    border: 1px solid rgb(177, 0, 177);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: top;
+    transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    background-color: rgb(199, 0, 199);
+    color: rgb(255, 255, 255);
+}
+.css-1w9ehtn:hover, .css-1w9ehtn:active {
+    background-color: rgb(177, 0, 177);
+    border-color: rgb(155 ,0 ,155);
+}
+.css-1ecjoy {
+    position: relative;
+    width: 317px;
+    margin: 0px auto;
+    overflow: hidden;
+    background-color: rgb(39, 39, 39);
+    border-radius: 4px;
+}
+.css-17ntrgf {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(0deg);
+    z-index: 20;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjY5NS40NjJMMTAgNy43NjcgMTcuMzA1LjQ2MmExLjU4IDEuNTggMCAwIDEgMi4xMi0uMTAybC4xMTMuMTAyYTEuNTc5IDEuNTc5IDAgMCAxIDAgMi4yMzNMMTIuMjMzIDEwbDcuMzA1IDcuMzA1YTEuNTc5IDEuNTc5IDAgMCAxLTIuMjMzIDIuMjMzTDEwIDEyLjIzM2wtNy4zMDUgNy4zMDVhMS41NzkgMS41NzkgMCAxIDEtMi4yMzMtMi4yMzNMNy43NjcgMTAgLjQ2MiAyLjY5NUExLjU3OSAxLjU3OSAwIDEgMSAyLjY5NS40NjJ6Ii8+PC9zdmc+) 0% 0% / 20px no-repeat;
+    transition: transform 0.3s ease 0s;
+}
+.css-gqop1t .printHeader {
+    height: 56px;
+    line-height: 56px;
+    background-color: rgb(199, 0, 199) !important;
+    margin: 0px;
+}
+.css-8d1p21 {
+    background: rgb(29, 29, 29) !important;
+}
+.css-1gkzpf0 .entryScenesDiv .entryScenesTitle .entryScenesTitleText {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+.css-1gkzpf0 .entryScenesDiv .entryScenesTable .entrySceneTableHeader {
+    height: 56px;
+    line-height: 56px;
+    background-color: rgb(89, 89, 89) !important;
+    border-top: none;
+}
+.css-1gkzpf0 .entryScenesDiv .entryScenesTable .entrySceneTableBody .sceneTableBodyTD .sceneObject .sceneObjectName {
+    display: block;
+    width: 120px;
+    height: 33px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    padding: 9px;
+    background-color: rgb(89, 99, 109) !important;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.css-gqop1t .printHeader div.printHeaderIcon {
+    background-image: url(images/btn_workspace_print.svg) !important;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 12px 16px auto;
+    float: right;
+    cursor: pointer;
+}
+.css-1gkzpf0 .entryScenesDiv .entryScenesTable .entrySceneTableBody .sceneTableBodyTD .objectAttrTable tbody tr th, .css-1gkzpf0 .entryScenesDiv .entryScenesTable .entrySceneTableBody .sceneTableBodyTD .objectAttrTable tbody tr td {
+    padding: 8px 0px;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgb(30, 30, 30) !important;
+    border: none;
 }
