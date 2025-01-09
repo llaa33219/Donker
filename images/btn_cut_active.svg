@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="32" viewBox="0 0 44 32">
+  <defs>
+    <path d="M31 8h5a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5V8z" id="a"/>
+    <path d="M8 8h5v16H8a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z" id="b"/>
+    <mask id="c" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7" height="16" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <mask id="d" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7" height="16" fill="#fff">
+      <use xlink:href="#b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect stroke="#888" fill="#555" fill-rule="nonzero" x=".5" y=".5" width="43" height="31" rx="4"/>
+    <use stroke="#AAA" mask="url(#c)" stroke-width="2" fill="#555" fill-rule="nonzero" stroke-linejoin="round" stroke-dasharray="1" xlink:href="#a"/>
+    <use stroke="#AAA" mask="url(#d)" stroke-width="2" fill="#555" fill-rule="nonzero" stroke-linejoin="round" stroke-dasharray="1" xlink:href="#b"/>
+    <path stroke="#888" fill="#FEC700" d="M15.5 8.5h13v15h-13z"/>
+  </g>
+</svg>
