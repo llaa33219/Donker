@@ -221,9 +221,9 @@
     height: 36px;
     padding: 0;
     margin-left: 4px;
-    border: 1px solid rgb(155, 0, 155);
+    border: 1px solid #7255ee;
     border-radius: 4px;
-    background-color: rgb(233, 0, 233);
+    background-color: #7255ee;
     background-size: 10px auto;
     font-size: 12px;
     font-weight: 600;
@@ -233,7 +233,7 @@
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .entryRunButtonWorkspace_w:hover {
-    background-color: rgb(180, 0, 180);
+    background-color: #5e48c0;
 }
 .entryStopButtonWorkspace_w {
     flex: 1 1 auto;
@@ -241,19 +241,19 @@
     height: 36px;
     padding: 0;
     margin-left: 4px;
-    border: 1px solid rgb(155, 0, 155);
+    border: 1px solid #7255ee;
     border-radius: 4px;
     background-color: #fff;
     background-size: 10px auto;
     font-size: 12px;
     font-weight: 600;
-    color: rgb(233, 0, 233);
+    color: #7255ee;
     text-align: center;
     line-height: 34px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .entryStopButtonWorkspace_w:hover {
-    background-color: rgb(233, 0, 233);
+    background-color: #7255ee;
     color: #FFF;
 }
 
@@ -274,12 +274,12 @@
     flex: none;
     width: 50%;
     height: 36px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     border-radius: 4px;
     background-color: #3d3d3d;
     font-size: 12px;
     font-weight: 600;
-    color: rgb(255, 0, 255);
+    color: #7255ee;
     letter-spacing: -.43px;
     line-height: 34px;
     text-align: center;
@@ -357,12 +357,12 @@
     height: 32px;
     padding: 4px 10px 0;
     border-bottom: 2px solid transparent;
-    background-color: #8e4b91;
+    background-color: #5540b1;
     border-radius: 10px 10px 0 0;
 }
 .entry-modal-confirm .entry-modal-title {
     display: flex;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -375,9 +375,9 @@
     height: 48px;
     margin: 30px 4.5px 40px;
     border-radius: 6px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     color: #fff;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     line-height: 40px;
     font-family: NanumGothic;
     font-weight: 700;
@@ -390,8 +390,8 @@
 }
 .entry-modal-confirm .entry-modal-contentView .entry-modal-button-group .entry-modal-cancelButton {
     background-color: #3d3d3d;
-    border: 1px solid rgb(199, 0, 199);
-    color: rgb(199, 0, 199);
+    border: 1px solid #7255ee;
+    color: #7255ee;
 }
 .entry-modal-confirm {
     background: #3d3d3d;
@@ -438,7 +438,7 @@
     margin-left: 2px;
     padding: 0;
     cursor: pointer;
-    background-color: rgb(107, 0, 107);
+    background-color: #4e3ba3;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     font-size: 12px;
@@ -450,7 +450,7 @@
 }
 .entryTabSelected {
     color: #fff;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     font-size: 14px;
 }
 .blockMenuContainer {
@@ -497,9 +497,10 @@
     border: 1px solid #474747;
     border-width: 1px 0;
     overflow: hidden;
+    background-color: rgb(29, 29, 29) !important;
     background-image: url(images/entry_bg.svg);
 }
-body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
     color: #ffffff;
 }
 text.null.entryBoardObjectName {
@@ -518,12 +519,12 @@ text.null.entryBoardObjectName {
     filter: brightness(96%);
 }
 .block.basicButtonView>g>path {
-    fill: #7e7e7e;
-    stroke: #f07eff;
+    fill: #2c2c2c;
+    stroke: #7255ee;
     stroke-width: 1;
 }
 .block.basicButtonView text {
-    fill: #f07cff;
+    fill: #7255ee;
 }
 .euwPVF {
     padding: 7px 20px 10px 7px;
@@ -583,9 +584,9 @@ text.null.entryBoardObjectName {
 }
 .entryPlaygroundAddPictureInner {
     margin-left: 7px;
-    border: 1px solid rgb(228, 0, 228);
+    border: 1px solid #7255ee;
     border-radius: 4px;
-    color: rgb(238, 0, 238);
+    color: #7255ee;
 }
 .entryPlaygroundNewPictureInner {
     margin-left: 6px;
@@ -641,7 +642,7 @@ text.null.entryBoardObjectName {
     text-align: center;
     border-radius: 4px;
     background-color: rgb(24, 24, 24) !important;
-    border: 1px solid rgb(255, 0, 255) !important;
+    border: 1px solid #7255ee !important;
 }
 .bYQFkV {
     height: 62px;
@@ -848,13 +849,13 @@ text.null.entryBoardObjectName {
     padding: 0px 16px;
     height: 32px;
     border-radius: 4px;
-    border: 1px solid rgb(199, 0, 199) !important;
+    border: 1px solid #7255ee !important;
     background-color: rgb(71, 71, 71) !important;
     font-family: NanumGothicOTF;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: -0.3px;
-    color: rgb(255, 0, 255) !important;
+    color: #7255ee !important;
     display: inline-flex;
     -webkit-box-align: center;
     align-items: center;
@@ -862,7 +863,7 @@ text.null.entryBoardObjectName {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .ikEJEr:hover {
-    background-color: rgb(255, 0, 255) !important;
+    background-color: #7255ee !important;
     color: rgb(71, 71, 71) !important;
 }
 .cncwLk {
@@ -895,7 +896,7 @@ text.null.entryBoardObjectName {
     padding: 0px 10px;
     box-sizing: border-box;
     vertical-align: top;
-    background-color: rgb(199, 0, 199) !important;
+    background-color: #7255ee !important;
     color: rgb(255, 255, 255) !important;
 }
 .dWToiY {
@@ -908,37 +909,37 @@ text.null.entryBoardObjectName {
     box-sizing: border-box;
     vertical-align: top;
     background-color: rgb(56, 56, 56) !important;
-    color: rgb(255, 0, 255) !important;
+    color: #7255ee !important;
 }
 .dWToiY.left {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border-color: rgb(199, 0, 199) !important;
+    border-color: #7255ee !important;
     border-width: 1px 0px 1px 1px;
 }
 .dsKiNg.right {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    border-color: rgb(199, 0, 199) !important;
+    border-color: #7255ee !important;
     border-width: 1px 1px 1px 0px;
 }
 .dsKiNg.left {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border-color: rgb(199, 0, 199) !important;
+    border-color: #7255ee !important;
     border-width: 1px 0px 1px 1px;
 }
 .dWToiY.right {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    border-color: rgb(199, 0, 199) !important;
+    border-color: #7255ee !important;
     border-width: 1px 1px 1px 0px;
 }
 .dWToiY.left svg {
-    fill: rgb(255, 0, 255) !important;
+    fill: #7255ee !important;
 }
 .dWToiY.right svg {
-    fill: rgb(255, 0, 255) !important;
+    fill: #7255ee !important;
 }
 .fLhNKw {
     display: inline-block;
@@ -1159,7 +1160,7 @@ text.null.entryBoardObjectName {
     top: 11px;
     width: 14px;
     height: 14px;
-    background-color: rgb(233, 0, 233) !important;
+    background-color: #7255ee !important;
     border-radius: 50%;
     font-size: 10px;
     color: #fff;
@@ -1180,9 +1181,9 @@ text.null.entryBoardObjectName {
     height: 40px;
     margin: 0 auto;
     background-color: #4b4b4b !important;
-    border: 1px solid rgb(199, 0, 199) !important;
+    border: 1px solid #7255ee !important;
     border-radius: 4px;
-    color: rgb(233, 0, 233) !important;
+    color: #7255ee !important;
     text-align: center;
     letter-spacing: -.32px;
     font-size: 14px;
@@ -1192,7 +1193,7 @@ text.null.entryBoardObjectName {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .entryPlaygroundAddSoundInner:hover {
-    background-color: rgb(233, 0, 233) !important;
+    background-color: #7255ee !important;
     color: #000000 !important;
 }
 .css-xg4u8q {
@@ -1226,16 +1227,16 @@ text.null.entryBoardObjectName {
     background-color: #494949;
 }
 .css-1orx7sa ~ .css-1orx7sa {
-    border-left: 1px solid rgb(199, 0, 199) !important;
+    border-left: 1px solid #7255ee !important;
 }
 .css-1orx7sa.active {
     color: rgb(255, 255, 255) !important;
-    background-color: rgb(199, 0, 199) !important;
+    background-color: #7255ee !important;
 }
 .css-lymnao {
     display: inline-block;
     overflow: hidden;
-    border: 1px solid rgb(199, 0, 199) !important;
+    border: 1px solid #7255ee !important;
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     vertical-align: top;
@@ -1254,8 +1255,8 @@ text.null.entryBoardObjectName {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMS43NzggNi44MjVhLjg4OS44ODkgMCAwIDEtMS43NzggMHYtMS42NWEuODg5Ljg4OSAwIDAgMSAxLjc3OCAwdjEuNjV6TTUuMzMzIDguNTRhLjg4OS44ODkgMCAxIDEtMS43NzcgMFYzLjQ2YS44ODkuODg5IDAgMSAxIDEuNzc3IDB2NS4wOHptMy41NTYgMi41NzlhLjg4MS44ODEgMCAxIDEtMS43NjMgMFYuODhhLjg4MS44ODEgMCAxIDEgMS43NjMgMHYxMC4yNHptMy41NTUtMi41OGEuODg5Ljg4OSAwIDEgMS0xLjc3NyAwVjMuNDZhLjg4OS44ODkgMCAxIDEgMS43NzcgMHY1LjA4ek0xNiA2LjgyNmEuODg5Ljg4OSAwIDAgMS0xLjc3OCAwdi0xLjY1YS44ODkuODg5IDAgMCAxIDEuNzc4IDB2MS42NXoiIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==) !important;
 }
 .css-1dwi7zq.active, .css-1dwi7zq.btn_play, .css-1dwi7zq.btn_pause, .css-1dwi7zq.btn_stop {
-    border-color: rgb(199, 0, 233) !important;
-    color: rgb(199, 0, 233) !important;
+    border-color: #7255ee !important;
+    color: #7255ee !important;
 }
 .css-1dwi7zq {
     display: inline-block;
@@ -1273,7 +1274,7 @@ text.null.entryBoardObjectName {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .css-1dwi7zq:hover {
-    background-color: rgb(199, 0, 199) !important;
+    background-color: #7255ee !important;
     color: rgb(59, 59, 59) !important;
 }
 .css-1txktsc {
@@ -1360,7 +1361,7 @@ text.null.entryBoardObjectName {
     height: 20px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 1px solid rgb(199, 0, 199) !important;
+    border: 1px solid #7255ee !important;
     background-color: rgb(146, 146, 146) !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px;
     box-sizing: border-box;
@@ -1559,10 +1560,10 @@ text.null.entryBoardObjectName {
     line-height: 40px;
 }
 .entryVariableSelectButtonWorkspace.selected div:after {
-    border-color: rgb(199, 0, 199) !important;
+    border-color: #7255ee !important;
 }
 .entryVariableSelectButtonWorkspace.selected .text {
-    color: rgb(255, 0, 255) !important;
+    color: #7255ee !important;
 }
 .entryVariableSelectButtonWorkspace.variable div:before {
     background-image: url(images/ic_attr_variable.svg);
@@ -1608,11 +1609,11 @@ text.null.entryBoardObjectName {
     overflow: hidden;
     width: calc(100% - 24px);
     height: 40px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     border-radius: 4px;
     background-color: #313131;
     font-weight: 600;
-    color: rgb(233, 0, 233);
+    color: #7255ee;
     text-align: center;
     text-decoration: none;
     -webkit-box-sizing: border-box;
@@ -1673,8 +1674,8 @@ text.null.entryBoardObjectName {
     vertical-align: top;
 }
 .entryVariableAdd_box .entryVariableAddSpaceWorkspace .entryVariableAddSpaceSelectWrapperWorkspace .button.on {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
     background-color: #333;
 }
 .entryVariableAdd_box .entryVariableAddSpaceWorkspace .entryVariableAddSpaceSelectWrapperWorkspace .button {
@@ -1735,8 +1736,8 @@ text.null.entryBoardObjectName {
 }
 .entryVariableAdd_box .entryVariableAddSpaceWorkspace .entryVariableAddSpaceButtonWrapperWorkspace .entryVariableAddSpaceConfirmWorkspace {
     color: #fff;
-    background-color: rgb(199, 0, 199);
-    border-color: rgb(180, 0, 180);
+    background-color: #7255ee;
+    border-color: #7255ee;
 }
 .entryVariableSplitterWorkspace.unfold .attr_link {
     background-color: #4e4e4e !important;
@@ -1903,8 +1904,8 @@ text.null.entryBoardObjectName {
 }
 .entryVariableAdd_box .message_inpt .entryVariableAddSpaceButtonWrapperWorkspace .entryVariableAddSpaceButtonWorkspace.entryVariableAddSpaceConfirmWorkspace {
     color: #fff;
-    background-color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 233);
+    background-color: #7255ee;
+    border-color: #7255ee;
 }
 .entryVariableAdd_box .message_inpt .entryVariableAddSpaceButtonWrapperWorkspace .entryVariableAddSpaceButtonWorkspace {
     display: inline-block;
@@ -1946,7 +1947,7 @@ text.null.entryBoardObjectName {
     line-height: 11px;
 }
 .entryVariableAdd_box .message_inpt input[type=text]:active, .entryVariableAdd_box .message_inpt input[type=text]:focus, .entryVariableAddSpaceNameWrapperWorkspace .entryVariableAddSpaceInputWorkspace:active, .entryVariableAddSpaceNameWrapperWorkspace .entryVariableAddSpaceInputWorkspace:focus, .entryVariableSplitterWorkspace .list .attr_inner_box .list_attr .cnt_list input[type=text]:active, .entryVariableSplitterWorkspace .list .attr_inner_box .list_attr .cnt_list input[type=text]:focus, .entryVariableSplitterWorkspace .list .attr_inner_box .val_attr .attr_inpt input[type=text]:active, .entryVariableSplitterWorkspace .list .attr_inner_box .val_attr .attr_inpt input[type=text]:focus, .entryVariableSplitterWorkspace .list .inpt input[type=text]:active, .entryVariableSplitterWorkspace .list .inpt input[type=text]:focus {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
 }
 .entryVariableSplitterWorkspace .list .use_block {
     display: none;
@@ -2039,7 +2040,7 @@ text.null.entryBoardObjectName {
 }
 .section_navi__hhkzZ .list__C_MPT .on__i6uGp {
     z-index: 10;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
 }
 .menu_list__BVg8C li {
     position: relative;
@@ -2115,7 +2116,7 @@ text.null.entryBoardObjectName {
     pointer-events: none;
 }
 .obj_list__tYZ20 .on__i6uGp .link__knt7L:after {
-    border: 2px solid rgb(199, 0, 199);
+    border: 2px solid #7255ee;
 }
 .obj_list__tYZ20 .thmb__JDtXQ.svg__x_Fbj:after {
     position: absolute;
@@ -2198,8 +2199,8 @@ text.null.entryBoardObjectName {
     box-sizing: border-box;
     width: 104px;
     height: 36px;
-    background-color: rgb(199, 0, 199);
-    border: 1px solid rgb(199, 0, 199);
+    background-color: #7255ee;
+    border: 1px solid #7255ee;
     border-radius: 4px;
     font-size: 14px;
     color: #fff;
@@ -2220,9 +2221,9 @@ text.null.entryBoardObjectName {
     line-height: 20px;
 }
 .pop_btn_box__ZEBft a.active__lsTWQ, .pop_btn_box__ZEBft div.active__lsTWQ {
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     color: #fff;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
 }
 .writing_content__Z6mqn .write_box__FsaPU {
     border: 1px solid #303030;
@@ -2263,7 +2264,7 @@ text.null.entryBoardObjectName {
     letter-spacing: -0.3px;
 }
 .writing_content__Z6mqn .write_box__FsaPU .input_inner__b0kgT input[type=text]:focus, .writing_content__Z6mqn .write_box__FsaPU .input_inner__b0kgT input[type=text]:active {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
 }
 .writing_content__Z6mqn .write_box__FsaPU .input_box__zw2hC .list__C_MPT li {
     font-size: 14px;
@@ -2400,8 +2401,8 @@ text.null.entryBoardObjectName {
     cursor: pointer;
 }
 .writing_content__Z6mqn .write_box__FsaPU .write_set__nHkmW .write_type_box__HfHh5 .on__i6uGp {
-    color: rgb(233, 0, 233);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
     z-index: 10;
 }
 .imbtn_pop_font_backgroundcolor__LqLGT.clear__X8O3L, .imbtn_pop_font_backgroundcolor__LqLGT.clear__X8O3L, .imbtn_pop_font_backgroundcolor__LqLGT {
@@ -2734,7 +2735,7 @@ text.null.entryBoardObjectName {
     box-sizing: content-box;
 }
 .section_navi__hhkzZ .srch_box__NZI8T.active__lsTWQ {
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
 }
 .entryPlaygroundTextWorkspace .write_box .write_set {
     position: relative;
@@ -2872,8 +2873,8 @@ text.null.entryBoardObjectName {
     cursor: pointer;
 }
 .entryPlaygroundTextWorkspace .write_box .input_box .write_type_box .on {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
     z-index: 10;
 }
 .entryPlaygroundTextWorkspace .write_box .write_set .font_style_box .style_link {
@@ -2962,7 +2963,7 @@ text.null.entryBoardObjectName {
     background-image: url("images/layers_icon_button_pause_nor(1).png");
 }
 .entryPopupWindow>.entryEngineWorkspace_w>.entryEngineButtonWrapper .entryRunButtonWorkspace_w:hover, .entryPopupWindow>.entryEngineWorkspace_w>.entryEngineButtonWrapper .entryPauseButtonWorkspace_full:hover, .entryPopupWindow>.entryEngineWorkspace_w>.entryEngineButtonWrapper .entryStopButtonWorkspace_w:hover {
-    color: rgb(255, 0, 255);
+    color: #7255ee;
 }
 .entryPopupWindow>.entryEngineWorkspace_w>.entryEngineButtonWrapper .entryRunButtonWorkspace_w:hover:before {
     background-image: url(images/layers_icon_button_play_nor_1.png);

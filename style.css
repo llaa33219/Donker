@@ -46,7 +46,7 @@
     transition: all 0.3s;
 }
 .css-jwhbb2:hover {
-    border-color:rgb(199, 0, 199);
+    border-color:#7255ee;
 }
 .css-jwhbb2:before {
     position: absolute;
@@ -75,7 +75,7 @@
     background-color: rgb(99, 99, 99);
 }
 .css-1uvivr9:hover {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
 }
 .css-19sv4op textarea {
     width: 100%;
@@ -115,18 +115,18 @@
     box-sizing: border-box;
     height: 34px;
     border-radius: 17px;
-    border: 1px solid rgb(111, 0, 111);
+    border: 1px solid #5743b1;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
     transition: all 0.3s ease 0s;
     line-height: 34px;
-    background-color: rgb(199, 0 ,199);
+    background-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-1adjw8a:hover {
-    background-color: rgb(111, 0, 111);
-    border: 1px solid rgb(80, 0, 80);
+    background-color: #533fac;
+    border: 1px solid #41318a;
 }
 .css-1mswyjj {
     margin-top: 18px;
@@ -220,7 +220,7 @@
     width: 358px;
     height: 278px;
     padding: 0px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     border-radius: 10px;
     background-color: rgb(109, 109, 109);
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
@@ -547,8 +547,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border: 1px solid rgb(180, 180, 180);
 }
 .css-13e1ump:hover {
-    color: rgb(255, 0, 255);
-    border: 1px solid rgb(173, 0, 173);
+    color: #8164ff;
+    border: 1px solid #8164ff;
 }
 .css-ul67nl {
     display: block;
@@ -614,7 +614,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-radius: 21px;
     font-size: 14px;
     font-weight: 600;
-    color: rgb(199, 0, 199);
+    color: #7255ee;
     text-align: center;
     transition: color 0.2s ease 0s;
     line-height: 42px;
@@ -623,7 +623,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: absolute;
     overflow: hidden;
     inset: 0px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     border-radius: 21px;
     background-color: rgb(68, 68, 68);
     z-index: -2;
@@ -633,7 +633,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: absolute;
     inset: 0px;
     border-radius: 21px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     transform: scale(0);
     transition: transform 0.2s ease 0s;
     z-index: -1;
@@ -692,12 +692,12 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     display: inline-block;
 }
 .css-1jybfx6:hover {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
 }
 .css-10movym:hover {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
 }
 .css-1rh76h strong {
     display: block;
@@ -737,8 +737,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     margin-bottom: 6px;
 }
 .css-ilnj8s:hover {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
 }
 .css-1s7bnyf {
     width: 172px;
@@ -756,8 +756,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     display: inline-block;
 }
 .css-1s7bnyf:hover {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
 }
 .css-2wngng strong {
     font-size: 16px;
@@ -780,7 +780,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-18wyd2c {
     height: 78px;
     min-height: 78px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     text-align: center;
 }
 .css-14nzb4f:hover, .css-14nzb4f:active {
@@ -802,7 +802,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     outline: none;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
-    color: rgb(199, 0, 199);
+    color: #7255ee;
 }
 .css-1wqr3nl {
     font-size: 18px;
@@ -1444,8 +1444,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     outline: none;
 }
 .css-1v2xvzi:hover {
-    border-color: rgb(199, 0, 199);
-    color: rgb(252, 46, 252);
+    border-color: #7255ee;
+    color: #7255ee;
 }
 .css-1v2xvzi:hover::before {
     background-image: url(images/IcoFnBtnLikeHover.svg);
@@ -1455,31 +1455,31 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     text-align: center;
     cursor: pointer;
     outline: none;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     border-radius: 4px;
     padding: 0px 10px;
     position: relative;
     color: rgb(255, 255, 255);
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
 }
 .css-fjglqi:hover {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-1b4dmlp:hover span {
-    border-color: rgb(199, 0, 199);
-    color: rgb(252, 46, 252);
+    border-color: #7255ee;
+    color: #7255ee;
 }
 .css-1b4dmlp:hover span::before {
     background-image: url(images/IcoFnBtnBookMarkHover.svg);
 }
 .css-1bvqxkj span {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
     color: rgb(255, 255, 255);
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
 }
 .css-1bvqxkj:hover span {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-1bvqxkj span::after {
@@ -1487,7 +1487,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     inset: 0px;
     z-index: -1;
     border-radius: 4px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     transform: scale(0);
     transition: transform 0.2s ease 0s;
     content: "";
@@ -1996,8 +1996,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     padding: 0px 20px;
 }
 .css-p17qoq:hover {
-    border-color: rgb(199, 0, 199);
-    color: rgb(252, 46, 252);
+    border-color: #7255ee;
+    color: #7255ee;
 }
 .css-g46y0n {
     padding: 27px 50px 27px 0px;
@@ -2326,8 +2326,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 36px;
 }
 .css-7zg907 a:hover {
-    color: rgb(199, 0, 199);
-    border-color: rgb(199, 0, 199);
+    color: #7255ee;
+    border-color: #7255ee;
 }
 .css-1ngd8m6 .sjt {
     display: block;
@@ -2347,7 +2347,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-4dpjj9 {
     height: 78px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     text-align: center;
     border-radius: 20px 20px 0px 0px;
 }
@@ -2386,7 +2386,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 26px;
 }
 .css-1bambyf input[type="checkbox"]:checked ~ em {
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
 }
 .css-1bambyf em {
     background-color: rgb(75, 75, 75);
@@ -2408,14 +2408,14 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     height: 42px;
     margin: 0px 4px;
     border-radius: 21px;
-    border: 1px solid rgb(177, 0, 177);
+    border: 1px solid #7255ee;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
     line-height: 42px;
     vertical-align: top;
     transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-fyaqp8 {
@@ -2449,8 +2449,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-color: rgb(73, 73, 73);
 }
 .css-14leu9c:hover {
-    background-color: rgb(233, 0, 233);
-    border-color: rgb(233, 0, 233);
+    background-color: #967fff;
+    border-color: #967fff;
 }
 .css-7ndem5 {
     display: block;
@@ -2661,16 +2661,16 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 40px;
 }
 .css-1lwpw8o:hover {
-    color: rgb(255, 0, 255);
+    color: #8164ff;
 }
 .css-1lwpw8o:hover::after {
-    border-color: rgb(233, 0, 233);
+    border-color: #967fff;
 }
 .css-1lwpw8o::before {
     position: absolute;
     inset: 0px;
     border-radius: 20px;
-    background-color: rgb(233, 0, 233);
+    background-color: #967fff;
     transform: scale(0);
     transition: transform 0.2s ease 0s;
     z-index: -1;
@@ -2702,7 +2702,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 20px;
 }
 .css-7cnakn .btn_box a {
-    background-color: rgb(199, 0, 199) !important;
+    background-color: #7255ee !important;
 }
 .css-5d9j6e {
     padding: 36px;
@@ -2710,7 +2710,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-fh9ril {
     height: 78px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     text-align: center;
 }
 .css-8jcx1j {
@@ -2727,7 +2727,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     text-align: center;
     line-height: 40px;
     background-color: rgb(255, 255, 255);
-    color: rgb(199, 0, 199);
+    color: #7255ee;
 }
 .css-1yl52d em {
     display: block;
@@ -2764,7 +2764,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     padding: 27px 27px 20px;
 }
 .css-1t2q9uf:hover {
-    border-color: rgb(199, 0, 199);
+    border-color: #7255ee;
 }
 .css-1ju08xa {
     display: inline-block;
@@ -2833,19 +2833,19 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     height: 42px;
     margin: 0px 4px;
     border-radius: 21px;
-    border: 1px solid rgb(177, 0, 177);
+    border: 1px solid #7255ee;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
     line-height: 42px;
     vertical-align: top;
     transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-1w9ehtn:hover, .css-1w9ehtn:active {
-    background-color: rgb(177, 0, 177);
-    border-color: rgb(155 ,0 ,155);
+    background-color: #7255ee;
+    border-color: #7255ee;
 }
 .css-1ecjoy {
     position: relative;
@@ -2869,7 +2869,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-gqop1t .printHeader {
     height: 56px;
     line-height: 56px;
-    background-color: rgb(199, 0, 199) !important;
+    background-color: #7255ee !important;
     margin: 0px;
 }
 .css-8d1p21 {
@@ -3028,7 +3028,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
     z-index: 20;
     border-radius: 10px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
 }
 .css-8ihdw7 strong {
     font-size: 16px;
@@ -3213,13 +3213,13 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     box-sizing: border-box;
     height: 50px;
     border-radius: 25px;
-    border: 1px solid rgb(199, 0, 199);
+    border: 1px solid #7255ee;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
     transition: all 0.3s ease 0s;
     line-height: 50px;
-    background-color: rgb(199, 0, 199);
+    background-color: #7255ee;
     color: rgb(255, 255, 255);
 }
 .css-1okz3gx h2 {
@@ -3243,7 +3243,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-radius: 4px;
     background-color: rgb(45 45 45);
 }
-.se-viewer .se-module-text b, .se-viewer .se-module-text u, .se-viewer .se-module-text strike {
+.se-viewer .se-module-text u, .se-viewer .se-module-text strike {
     background-color: inherit;
     font-family: inherit;
     color: #FFF;
@@ -3521,4 +3521,95 @@ a, a:hover, a:active, a:focus {
     top: 20px;
     background-color: rgba(255, 255, 255, 0);
     z-index: 50;
+}
+.css-1hiophy {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 168px;
+    height: 48px;
+    margin: 36px auto 0px;
+    border: 1px solid rgb(57 57 57);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 48px;
+    background-color: rgb(59, 59, 59);
+}
+.css-16w27ey {
+    position: relative;
+    margin-top: 31px;
+    padding: 27px;
+    border: 1px solid rgb(24 24 24);
+    border-radius: 10px;
+    background-color: rgb(49 49 49);
+}
+.css-16w27ey .result_text {
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 26px;
+    white-space: pre-line;
+}
+.css-16w27ey .arrow > i {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(49 49 49);
+    border: 1px solid rgb(45 45 45);
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+.css-1ot99j1 {
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 76px;
+    height: 36px;
+    border: 1px solid #3b3b3b;
+    border-radius: 18px;
+    background-color: #393939;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+.css-173o8e9 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: border 0.3s ease 0s, background-color 0.3s ease 0s, color 0.3s ease 0s;
+    border: 1px solid rgb(30, 200, 0);
+    background-color: rgb(57 57 57);
+    color: rgb(255 255 255);
+    height: 60px;
+    border-radius: 30px;
+    line-height: 58px;
+}
+.css-nosq41 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: border 0.3s ease 0s, background-color 0.3s ease 0s, color 0.3s ease 0s;
+    border: 1px solid rgb(25, 58, 151);
+    background-color: rgb(75 75 75);
+    color: rgb(255 255 255);
+    height: 60px;
+    border-radius: 30px;
+    line-height: 58px;
+}
+.se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- {
+    font-family: se-nanumgothic, arial, "\B098\B214\ACE0\B515", nanumgothic, sans-serif, Meiryo;
+    background-color: rgba(29, 29, 29, 0) !important;
 }
