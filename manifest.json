@@ -1,7 +1,7 @@
 {
   "name": "엔트리-Donker",
   "description": "엔트리 다크테마",
-  "version": "1.3",
+  "version": "1.4",
   "manifest_version": 3,
 
   "host_permissions": [
@@ -11,7 +11,8 @@
   "content_scripts": [
     {
       "matches": ["https://playentry.org/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "all_frames": true
     }
   ],
 

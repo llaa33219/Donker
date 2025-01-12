@@ -39,8 +39,8 @@
     box-sizing: border-box;
     height: 40px;
     padding: 0 52px 0 43px;
-    background-color: #666;
-    border: 1px solid #e2e2e2;
+    background-color: #242424;
+    border: 1px solid #707070;
     border-radius: 20px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -70,9 +70,9 @@
 .css-1uvivr9 {
     position: relative;
     padding: 27px 27px 0px;
-    border: 1px solid rgb(177, 177, 177);
+    border: 1px solid rgb(39, 39, 39);
     border-radius: 20px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(43, 43, 43);
 }
 .css-1uvivr9:hover {
     border-color: #7255ee;
@@ -87,7 +87,13 @@
     color: rgb(255, 255, 255);
     line-height: 22px;
     vertical-align: top;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(43, 43, 43);
+}
+.css-1lpaq59 {
+    position: relative;
+    margin-top: 18px;
+    padding: 14px 0px 18px;
+    border-top: 1px solid rgb(99, 99, 99);
 }
 .css-1lpaq59 .link {
     display: inline-block;
@@ -130,7 +136,7 @@
 }
 .css-1mswyjj {
     margin-top: 18px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(40, 40, 40);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
 }
@@ -152,7 +158,7 @@
 }
 .css-1psq3e8 {
     margin-top: 18px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(40, 40, 40);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
 }
@@ -189,9 +195,9 @@
     position: relative;
     padding: 24px 27px 18px;
     border-radius: 10px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(53, 53, 53);
     z-index: 30;
-    border: 1px solid rgb(177, 177, 177);
+    border: 1px solid rgb(48, 48, 48);
 }
 .css-1cyfuwa textarea {
     resize: none;
@@ -204,7 +210,7 @@
     color: rgb(255, 255, 255);
     vertical-align: top;
     line-height: 22px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(53, 53, 53);
 }
 .css-u1nrp7 {
     margin: 0px 27px;
@@ -285,13 +291,13 @@
 }
 .css-1kivsx6 {
     margin-top: 18px;
-    background-color: rgb(0, 78, 59);
+    background-color: rgb(30 41 38);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
 }
 .css-940s7l {
     position: relative;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(46 46 46);
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
@@ -312,7 +318,7 @@
 }
 .css-1j98i4t {
     margin-top: 18px;
-    background-color: rgb(0, 78, 59);
+    background-color: rgb(30 41 38);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
 }
@@ -414,7 +420,7 @@
     top: 2px;
     width: 14px;
     height: 14px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(46, 46, 46);
     border: 1px solid rgba(0, 0, 0, 0.08);
     transform: translate(-50%, 50%) rotate(45deg);
 }
@@ -430,6 +436,11 @@
     text-align: center;
     line-height: 18px;
     cursor: pointer;
+}
+.css-q3a4lv {
+    margin: 27px 0px -8px;
+    padding-top: 19px;
+    border-top: 1px solid rgb(92 92 92);
 }
 .css-q3a4lv li > a {
     display: block;
@@ -538,13 +549,13 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-radius: 20px;
     font-size: 16px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(228 228 228);
     text-align: center;
     vertical-align: top;
     transition: color 0.3s ease 0s;
     line-height: 40px;
-    background-color: rgb(87, 87, 87);
-    border: 1px solid rgb(180, 180, 180);
+    background-color: rgb(46 46 46);
+    border: 1px solid rgb(45 45 45);
 }
 .css-13e1ump:hover {
     color: #8164ff;
@@ -554,7 +565,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     display: block;
     position: relative;
     border-radius: 20px;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(46, 46, 46);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 0px 0px;
     transform: translateY(0px);
     transition: transform 0.1s ease-out 0s;
@@ -625,7 +636,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     inset: 0px;
     border: 1px solid #7255ee;
     border-radius: 21px;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(27 27 27);
     z-index: -2;
     content: "";
 }
@@ -639,6 +650,17 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     z-index: -1;
     content: "";
 }
+.css-gdeidz {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    right: 0px;
+    top: 87px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(147 147 147);
+    border-radius: 50%;
+}
 .css-199nmoy {
     display: inline-block;
     vertical-align: top;
@@ -649,7 +671,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-as31jq {
     padding: 27px 36px 54px;
-    background-color: #444;
+    background-color: #1c1c1c;
 }
 .css-94thhr {
     display: inline-block;
@@ -775,7 +797,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     color: rgb(255, 255, 255);
     vertical-align: top;
     line-height: 26px;
-    background-color: #444;
+    background-color: rgb(49, 49, 49);
 }
 .css-18wyd2c {
     height: 78px;
@@ -784,8 +806,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     text-align: center;
 }
 .css-14nzb4f:hover, .css-14nzb4f:active {
-    border-color: rgb(153, 0, 153);
-    background-color: rgb(153, 0, 153);
+    border-color: #493797;
+    background-color: #493797;
 }
 .css-1djmhhc {
     display: inline-block;
@@ -803,6 +825,18 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     color: #7255ee;
+}
+.css-9eale8 {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(83 83 83);
+}
+.css-2wngng label {
+    display: block;
+    margin-top: 18px;
+    padding: 27px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 6px;
+    background-color: rgb(49, 49, 49);
 }
 .css-1wqr3nl {
     font-size: 18px;
@@ -905,7 +939,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 18px;
 }
 .css-1kky4fw li:hover, .css-1kky4fw li:active, .css-1kky4fw li.active {
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(46, 46, 46);
 }
 .css-qvxe35 {
     position: relative;
@@ -952,9 +986,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: relative;
     padding: 24px 27px 18px;
     border-radius: 10px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(43, 43, 43);
     z-index: 30;
-    border: 1px solid rgb(151, 151, 151);
+    border: 1px solid rgb(38, 38, 38);
 }
 .css-ecigri textarea {
     resize: none;
@@ -967,7 +1001,23 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     color: rgb(255, 255, 255);
     vertical-align: top;
     line-height: 22px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(43, 43, 43);
+}
+.css-otqagu {
+    overflow: hidden;
+    cursor: default;
+    margin-top: 36px;
+    padding-top: 9px;
+    border-top: 1px solid rgb(74 74 74);
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 26px;
+}
+.css-1rlsx55 {
+    position: relative;
+    margin-top: 27px;
+    padding-top: 27px;
+    border-top: 1px solid rgb(73 73 73);
 }
 .css-vruyeh {
     background-color: rgb(29, 29, 29);
@@ -981,21 +1031,21 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     vertical-align: top;
 }
 .css-1h43tv1 {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(40 40 40);
     position: relative;
     z-index: 31;
 }
 .css-1yosf8q {
     padding: 27px 27px 27px 62px;
-    border-top: 1px solid rgb(121, 121, 121);
-    background-color: rgb(77, 77, 77);
+    border-top: 1px solid rgb(73 73 73);
+    background-color: rgb(41 41 41);
 }
 .css-1yosf8q .reply_fold {
     display: block;
     margin: 27px -27px -27px -62px;
     height: 42px;
-    background-color: rgb(63, 63, 63);
-    border-top: 1px solid rgb(226, 226, 226);
+    background-color: rgb(48 48 48);
+    border-top: 1px solid rgb(85 85 85);
     font-size: 14px;
     font-weight: 600;
     color: rgb(223, 223, 223);
@@ -1005,10 +1055,10 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-1v2xvzi {
     display: block;
     text-align: center;
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(57 57 57);
     cursor: pointer;
     outline: none;
-    border: 1px solid rgb(160, 160, 160);
+    border: 1px solid rgb(37 37 37);
     border-radius: 4px;
     color: rgb(235, 235, 235);
     padding: 0px 10px;
@@ -1032,8 +1082,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     margin-top: 18px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 0px 0px;
-    background-color: rgb(70, 70, 70);
-    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(48 48 48);
+    border: 1px solid rgb(47 47 47);
 }
 .css-1xk0vcr a > .textInner {
     display: -webkit-box;
@@ -1427,14 +1477,14 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: relative;
     height: 34px;
     border-radius: 4px;
-    border: 1px solid rgb(160, 160, 160);
+    border: 1px solid rgb(37 37 37);
     font-size: 14px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     line-height: 34px;
     transition: border 0.3s ease 0s, color 0.3s ease 0s;
     user-select: none;
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(57 57 57);
 }
 .css-1b4dmlp {
     position: relative;
@@ -1598,9 +1648,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-zd7mu6 {
     position: relative;
     padding: 24px 27px;
-    border: 1px solid rgb(151, 151, 151);
+    border: 1px solid rgb(37, 37, 37);
     border-radius: 10px;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(43, 43, 43);
     z-index: 30;
 }
 .css-zd7mu6 textarea {
@@ -1990,7 +2040,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     background-color: rgb(51, 51, 51);
     cursor: pointer;
     outline: none;
-    border: 1px solid rgb(226, 226, 226);
+    border: 1px solid rgb(47 47 47);
     border-radius: 4px;
     color: rgb(241, 241, 241);
     padding: 0px 20px;
@@ -2449,8 +2499,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-color: rgb(73, 73, 73);
 }
 .css-14leu9c:hover {
-    background-color: #967fff;
-    border-color: #967fff;
+    background-color: #56498f;
+    border-color: #53478b;
 }
 .css-7ndem5 {
     display: block;
@@ -2808,14 +2858,29 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     height: 48px;
     padding: 0px 18px;
     box-sizing: border-box;
-    border: 1px solid rgb(53, 53, 53);
-    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(30 30 30);
+    background-color: rgb(36 36 36);
     border-radius: 4px;
     outline: 0px;
     font-size: 16px;
     color: rgb(255, 255, 255);
     line-height: 16px;
     text-transform: none;
+}
+.css-73gosq {
+    position: relative;
+    display: block;
+    vertical-align: top;
+    width: 311px;
+    margin-top: 18px;
+    background-color: rgb(36 36 36);
+    border-radius: 4px;
+}
+.css-19cz2xs {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(25 25 25);
+    border-radius: 4px;
 }
 .css-1de5ifq {
     display: block;
@@ -2935,7 +3000,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     line-height: 26px;
 }
 .css-12usb98 {
-    border-top: 1px solid rgb(121, 121, 121);
+    border-top: 1px solid rgb(64 64 64);
 }
 .css-xj5nm9 {
     display: table;
@@ -3251,6 +3316,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .se-viewer .se-section-text.se-l-default .se-text-paragraph span {
     line-height: 1.8;
     color: #FFF !important;
+    background-color: #FFFFFF00 !important;
 }
 .css-6c79l7 h3 {
     font-size: 24px;
@@ -3293,9 +3359,6 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border: 1px solid rgb(59 59 59);
     border-radius: 4px;
     background-color: rgb(57 57 57);
-}
-a, a:hover, a:active, a:focus {
-    color: #029ffd;
 }
 .css-18dkwso h2 {
     font-size: 34px;
@@ -3345,9 +3408,6 @@ a, a:hover, a:active, a:focus {
     color: #fff;
     line-height: 50px;
     vertical-align: top;
-}
-a, a:hover, a:active, a:focus {
-    color: #8b8b8b;
 }
 .css-6dxglf:active, .css-6dxglf.active {
     background-color: #595959;
@@ -3612,4 +3672,358 @@ a, a:hover, a:active, a:focus {
 .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- {
     font-family: se-nanumgothic, arial, "\B098\B214\ACE0\B515", nanumgothic, sans-serif, Meiryo;
     background-color: rgba(29, 29, 29, 0) !important;
+}
+.css-tstzuf {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    overflow: scroll;
+    display: flex;
+    height: 758px;
+    max-height: inherit;
+    border: 2px solid #7255ee;
+    flex-direction: column;
+}
+.css-1lz25n4 {
+    background-color: rgb(39, 39, 39);
+}
+.css-1sypvgx {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(218 218 218);
+    line-height: 16px;
+}
+.css-8ha9bp {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: rgb(58 58 58);
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    width: fit-content;
+    margin-bottom: 18px;
+}
+.css-9k2n6z {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(216 216 216);
+    line-height: 18px;
+    white-space: pre-line;
+}
+.css-ifi46t {
+    position: absolute;
+    inset: -2px;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid #7255ee;
+    cursor: pointer;
+}
+.is_owner .css-ifi46t::after {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background: url(/images_2/IcoButtonCheckCircle.svg) 0% 0% / 24px no-repeat;
+}
+.css-dntjnx {
+    height: 62px;
+    border-radius: 0px 0px 18px 18px;
+    background-color: #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 62px;
+}
+.css-iek55d .entryEngineMinimize {
+    height: 48px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(55 55 55);
+    border-top: 1px solid rgb(45 45 45);
+    margin-top: -5px;
+}
+.css-1fk2mc3 {
+    border-radius: 6px;
+    border: 1px solid rgb(50 50 50);
+    position: relative;
+    overflow: hidden;
+}
+.css-yeprld em {
+    display: block;
+    position: relative;
+    height: 20px;
+    background-color: rgb(91 91 91);
+    border-radius: 20px;
+    font-size: 0px;
+    transition: all 0.2s ease 0s;
+}
+.css-yeprld input[type="checkbox"]:checked ~ em {
+    background-color: #7255ee;
+}
+.css-iek55d .entryEngineMinimize .entryCoordinateButtonMinimize {
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    background-color: rgb(55, 55, 55);
+    float: right;
+    background-image: url(images/layers_icon_grid_nor.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+.css-iek55d .entryEngineMinimize .entryMaximizeButtonMinimize {
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    background-color: rgb(55, 55, 55);
+    float: right;
+    margin-right: 18px;
+    background-image: url(images/layers_icon_fullmode01_nor_1.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+.css-iek55d .entryEngineMinimize .entryEngineButtonMinimize {
+    background-color: rgb(55, 55, 55);
+}
+.css-1evxcsj input[type="text"], .css-1evxcsj input[type="password"] {
+    height: 56px;
+    font-size: 18px;
+    border-radius: 6px;
+    line-height: 18px;
+    background-color: rgb(59, 59, 59);
+    border: rgb(49, 49, 49);
+    color: #FFF;
+}
+.css-kfhowq {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 17px;
+    padding: 0px 50px 8px 0px;
+    border-radius: 6px;
+    border: 1px solid rgb(32 32 32);
+    background-color: rgb(37 37 37);
+}
+.css-10db7y3:hover, .css-10db7y3:active {
+    background-color: #08c490;
+    border-color: #08c490;
+}
+.css-ahy3yn .reply_more {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 142px;
+    height: 36px;
+    margin: 0px auto;
+    border: 1px solid rgb(81 81 81);
+    border-radius: 18px;
+    background-color: rgb(88 88 88);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 36px;
+}
+.css-18rbqj2 {
+    display: block;
+    padding: 45px 27px 14px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 24px;
+}
+.css-1548ohy {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgb(50 50 50);
+    background-color: rgb(31 31 31);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-xal00d {
+    display: block;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.css-l9bvqd {
+    display: block;
+    padding: 14px 0px 36px;
+    font-size: 14px;
+    color: rgb(197 197 197);
+    line-height: 14px;
+    text-align: center;
+}
+.css-16whppa {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 20;
+    width: 18px;
+    height: 18px;
+    background: url(images/layers_icon_close_nor_new.svg) 0% 0% / 18px no-repeat;
+    transition: transform 0.3s ease 0s;
+}
+.css-1fo085z {
+    padding: 13px 27px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.css-1fo085z:hover, .css-1fo085z:active {
+    background-color: rgb(50 50 50);
+}
+.css-bvoifc {
+    color: rgb(193 193 193);
+}
+.css-bvoifc::after {
+    background: url(images/IcoTextArrow4.svg) 0% 0% / 6px no-repeat;
+}
+.css-iek55d .entryEngineMinimize .entryStopButtonMinimize::before, .entryPopup .entryEngineMinimize .entryStopButtonMinimize::before {
+    background-image: url(images/layers_icon_button_stop_nor_2.png);
+}
+.css-iek55d .entryEngineMinimize .entryPauseButtonMinimize::before, .entryPopup .entryEngineMinimize .entryPauseButtonMinimize::before {
+    background-image: url(images/layers_icon_button_pause_nor.png);
+}
+.entryPopup .entryEngineMinimize {
+    height: 48px;
+    position: relative;
+    background-color: rgb(55, 55, 55);
+    padding-left: 30px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.entryPopup .entryPopupWindow {
+    background-color: rgb(81 81 81);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.entryPopup .entryEngineMinimize .entryCoordinateButtonMinimize {
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    background-color: rgb(55, 55, 55);
+    float: right;
+    background-image: url(images/layers_icon_grid_nor.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+.entryPopup .entryEngineMinimize .entryMaximizeButtonMinimize {
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    background-color: rgb(55, 55, 55);
+    float: right;
+    background-image: url(images/zoom_out_btn.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+.entryPopup .entryEngineMinimize .entryEngineButtonMinimize {
+    background-color: rgb(55, 55, 55);
+}
+.entryPopup .entryRunButtonBigMinimize, .css-iek55d .entryRunButtonBigMinimize {
+    background-image: url(images_2/play_big.svg) !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.css-1khpjr3 {
+    background: url(images/layers_icon_close_nor_new.png) 0% 0% / 20px no-repeat;
+}
+#entryCanvas {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.css-1t013ij .dsc {
+    padding: 26px 27px 26px 41px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.css-1t013ij .dsc em {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(211 211 211);
+    line-height: 16px;
+}
+@media (max-width: 767px) {
+.css-9bbrcn a {
+    background-image: url(images_2/CommonLogoMobile.svg);
+}
+.css-1tz7pmi .search {
+    margin-right: 12px;
+    background-size: 20px;
+    background-image: url(images/IcoTopSearch.svg);
+}
+}
+@media (max-width: 1199px) {
+.css-1psq3e8 {
+    border: 1px solid rgb(42 42 42);
+}
+}
+.css-1tz7pmi .alarm {
+    background-image: url(images_2/IcoTopAlarmM.svg);
+    background-size: 20px;
+}
+.css-1tz7pmi .hamberger {
+    background-image: url(images_2/IcoTopHambergerMobile.svg);
+}
+.css-yo4qlx {
+    width: 168px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(45 45 45);
+    background-color: rgb(56 56 56);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 48px;
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+}
+.css-1nluc5p .e1ogsts90 svg path {
+    fill: rgb(255 255 255);
+}
+.css-1nluc5p .e1ogsts90:hover svg path, .css-1nluc5p .e1ogsts90:active svg path {
+    fill: #7255ee;
+}
+.css-yo4qlx:hover, .css-yo4qlx:active {
+    border-color: #7255ee;
+    color: #7255ee;
+}
+.css-zd7mu6 textarea {
+    resize: none;
+    width: 100%;
+    height: 44px;
+    border: 0px;
+    outline: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    line-height: 22px;
+    background-color: rgb(43, 43, 43);
+}
+.css-vimcaw {
+    border: 1px solid #7255ee;
+    background-color: #7255ee;
+}
+.css-1dyl02g {
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 18px;
 }
