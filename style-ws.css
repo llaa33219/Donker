@@ -3471,11 +3471,32 @@ text.null.entryBoardObjectName {
 .section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.pie__Jd1J8 {
     background-image: url(images_2/Circlegraphs_btn.svg);
 }
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.scatter__qaNLo {
+    background-image: url(images_2/DotCharts_btn.svg);
+}
 .section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.scatter_matrix__QIzt2 {
     background-image: url(images_2/ScatterMatrix_btn.svg);
 }
 .section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.histogram__zl6sD {
     background-image: url(images_2/Histograms_btn.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.line__UdWWn.disabled__cYitn {
+    background-image: url(images_2/Charts_btn_off.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.bar__inQtc.disabled__cYitn {
+    background-image: url(images_2/Graphs_btn_off.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.pie__Jd1J8.disabled__cYitn {
+    background-image: url(images_2/Circlegraphs_btn_off.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.scatter__qaNLo.disabled__cYitn {
+    background-image: url(images_2/DotCharts_btn_off.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.scatter_matrix__QIzt2.disabled__cYitn {
+    background-image: URL(images_2/ScatterMatrix_btn_off.svg);
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_link__Dhz2v.histogram__zl6sD.disabled__cYitn {
+    background-image: url(images_2/Histograms_btn_off.svg);
 }
 .section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .input_inner__b0kgT input[type=text] {
     box-sizing: border-box;
@@ -3519,8 +3540,8 @@ text.null.entryBoardObjectName {
 }
 .tooltip_box__mHFpp.dropdown__T1Tbl .tooltip_inner__lUA7z .checkbox__QXaaN::after, .sortable___TfYj.dropdown__T1Tbl .tooltip_inner__lUA7z .checkbox__QXaaN::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     position: relative;
     display: inline-block;
     top: 3px;
@@ -3558,4 +3579,123 @@ text.null.entryBoardObjectName {
     display: block;
     font-size: 10px;
     color: #b2b2b2;
+}
+.pop_selectbox__pAHes.disabled__cYitn .select_link__lzdj9 {
+    background-color: #3e3e3e;
+    border-color: #353535;
+    color: #cbcbcb;
+}
+.section_container__IqIXC.chart_container__o3jMQ .chart_box__KypyK .chart_no_result__ZPYEx {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1;
+    overflow: auto;
+    background-color: rgb(29, 29, 29) !important;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa {
+    padding: 18px 16px;
+    border-bottom: 1px solid #292929;
+}
+.pie_legend__ZiPhv {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    bottom: 16px;
+    width: 210px;
+    background-color: #303030;
+    border: 1px solid #272727;
+    overflow-y: auto;
+    z-index: 30;
+}
+.pie_legend__ZiPhv .list__C_MPT li {
+    overflow: hidden;
+    height: 14px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 14px;
+}
+.bb text, .bb .bb-button {
+    fill: #ffffff !important;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_box__WY5tW .btn__eEUlk {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #333333;
+    background-color: #303030;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_box__WY5tW .btn__eEUlk~.btn__eEUlk {
+    left: auto;
+    right: 0;
+    border: 0;
+    border-left: 1px solid #3a3a3a;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_box__WY5tW {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 106px;
+    height: 32px;
+    padding: 0 30px;
+    margin: 4px 0 0 19px;
+    border: 1px solid #2b2b2b;
+    border-radius: 4px;
+    background-color: #252525;
+    vertical-align: top;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_box__WY5tW .input__p3MhN {
+    display: block;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.33px;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_width__vReQ1.disabled__cYitn .input__p3MhN, .section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_width__vReQ1.disabled__cYitn .input__p3MhN:read-only {
+    color: #ffffff;
+    background-color: #4b4b4b;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_width__vReQ1 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 32px;
+    margin: 4px 0 0 19px;
+    border: 1px solid #2f2f2f;
+    border-radius: 4px;
+    background-color: #111;
+    vertical-align: top;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_width__vReQ1.disabled__cYitn {
+    background-color: #595959;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_sort__TtXzN a {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 112px;
+    height: 32px;
+    border: 1px solid #3c3c3c;
+    border-radius: 4px 0 0 4px;
+    background-color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.33px;
+    line-height: 32px;
+    vertical-align: top;
+}
+.section_container__IqIXC.chart_container__o3jMQ .form_box__PniNa .select_group__UPrgQ .cnt_sort__TtXzN a.active__lsTWQ {
+    border-color: #7255ee;
+    color: #7255ee;
+    z-index: 10;
 }
