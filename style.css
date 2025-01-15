@@ -164,14 +164,14 @@
 }
 .css-ahy3yn {
     padding: 27px;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(33, 33, 33);
     border-top: 1px solid rgb(59, 59, 59);
     border-radius: 0px 0px 20px 20px;
     position: relative;
     z-index: 20;
 }
 .css-4e8bhg {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(33, 33, 33);
     border-radius: 0px 0px 20px 20px;
 }
 .css-1e7cskh {
@@ -184,7 +184,7 @@
     margin: 14px -27px -27px;
     border-radius: 0px 0px 20px 20px;
     border-top: 1px solid rgb(63, 63, 63);
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(40, 40, 40);
     font-size: 14px;
     font-weight: 600;
     color: rgb(151, 151, 151);
@@ -4330,4 +4330,1213 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-icda9e:hover svg path {
     fill: #7255ee !important;
+}
+.css-mwisvd {
+    display: flex;
+    margin-top: 18px;
+    border: 1px solid rgb(34 34 34);
+    border-radius: 10px;
+    background-color: rgb(53 54 55);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-bvwj50 .ekpunk810::before {
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid rgb(34 34 34);
+    border-left: 1px solid rgb(34 34 34);
+    background-color: rgb(53 54 55);
+    transform: translateY(50%) rotate(45deg);
+    content: "";
+}
+.css-1hgoxk4 em {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(227 227 227);
+    line-height: 14px;
+}
+.css-wqohew {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    z-index: 10;
+    width: 142px;
+    padding: 22px 0px;
+    border: 1px solid rgb(57 56 56);
+    border-radius: 10px;
+    background-color: rgb(53 53 53);
+}
+.css-wqohew::before {
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid rgb(57 56 56);
+    border-left: 1px solid rgb(57 56 56);
+    background-color: rgb(53 53 53);
+    transform: translateY(50%) rotate(45deg);
+    content: "";
+}
+.css-8gtlqx {
+    display: block;
+    padding: 5px 0px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 14px;
+    text-align: center;
+}
+.css-8gtlqx:hover, .css-8gtlqx:active {
+    font-weight: 600;
+    color: rgb(215 215 215);
+}
+.css-1q7j1uf ul>li>a:hover, .css-1q7j1uf ul>li.active>a {
+    cursor: pointer;
+    font-weight: 600;
+    color: #bababa;
+}
+.css-1hsfeai ul > li > a:hover, .css-1hsfeai ul > li.active > a {
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(190 190 190);
+}
+.css-10exgnu {
+    background-color: #2f2f2f;
+    border: 1px solid #333;
+}
+.css-1fmm94c .e1t0bv480:hover, .css-1fmm94c .e1t0bv480:active, .css-1fmm94c .e1t0bv480.active {
+    border-color: #7255ee;
+}
+.css-3eggzd {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 162px;
+    border-radius: 50%;
+    border: 8px solid #313131;
+    background-color: #303030;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.css-85g497 {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+}
+.css-1n10xu3 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+.css-1a7dy9c p em strong {
+    font-weight: 600;
+    color: rgb(197 197 197);
+}
+.css-1ddqqs2 strong {
+    display: block;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 16px;
+}
+.css-1ddqqs2 p {
+    color: rgb(229 229 229);
+}
+.css-1ddqqs2 span {
+    display: block;
+    margin-top: 9px;
+    font-size: 14px;
+    color: rgb(187 187 187);
+    line-height: 14px;
+}
+.css-1ddqqs2 span em {
+    padding-left: 9px;
+    font-weight: 600;
+    color: #7255ee;
+}
+.css-1ddqqs2 {
+    padding-top: 27px;
+    border-top: 1px solid rgb(63 63 63);
+    text-align: center;
+}
+.css-6yowfb {
+    margin-top: 27px;
+    padding-top: 36px;
+    border-top: 1px solid rgb(63 63 63);
+}
+.css-6yowfb strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 16px;
+}
+.css-1y9nfnw em {
+    display: block;
+    overflow: hidden;
+    color: rgb(223 223 223);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.css-1vogpaa {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 52px;
+    border-radius: 26px;
+    border: 1px solid #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 52px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-1vogpaa:hover, .css-1vogpaa:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-wx1fe {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 52px;
+    border-radius: 26px;
+    border: 1px solid rgb(77 77 77);
+    background-color: rgb(39 39 39);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 52px;
+}
+.css-sqgelm .e1rvwiun0:hover, .css-sqgelm .e1rvwiun0:active {
+    border-color: #7255ee;
+    background-color: rgb(39, 39, 39);
+    color: #7255ee;
+}
+.css-19gzq9a .e1ya1bhc3 {
+    margin: 0px;
+    padding: 9px 36px 18px;
+    border-radius: 0px 0px 4px 4px;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(38 38 38);
+    border-bottom-color: rgb(38 38 38);
+    border-left-color: rgb(37 37 37);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+    background-color: rgb(39, 39, 39);
+}
+.css-twasu3 {
+    display: inline-block;
+    padding: 0px 12px;
+    border-radius: 4px;
+    border: 1px solid rgb(53 53 53);
+    background-color: rgb(48 48 48);
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+}
+.css-twasu3 strong {
+    font-weight: 600;
+    color: rgb(255 255 255);
+}
+.css-vw4qsc {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid #7255ee;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 34px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-vw4qsc:hover, .css-vw4qsc:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-145rkuf {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(74 74 74);
+}
+.css-f38wku em {
+    display: inline-block;
+    padding: 0px 9px;
+    border-radius: 2px;
+    border: 1px solid rgb(59 59 59);
+    background-color: rgb(50 50 50);
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 26px;
+    vertical-align: top;
+}
+.css-idoyix .inner_name {
+    color: rgb(255 255 255);
+}
+.css-axiugw {
+    color: rgb(238 238 238);
+}
+.css-1bs8ora {
+    border-bottom: 1px solid rgb(69 69 69);
+}
+.is_detail .css-1j7tho6 {
+    background-color: rgb(35 35 35);
+}
+.css-ee4j6k {
+    padding: 18px 18px 0px;
+    border-top: 1px solid rgb(99 99 99);
+    background-color: rgb(34 34 34);
+}
+.is_detail .css-ee4j6k {
+    padding: 27px 27px 27px 62px;
+    background-color: rgb(35 35 35);
+}
+.css-ee4j6k .reply_fold {
+    display: block;
+    height: 44px;
+    background-color: rgb(37 37 37);
+    border-top: 1px solid rgb(94 94 94);
+    border-bottom: 1px solid rgb(34 34 34);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 151, 151);
+    line-height: 42px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.is_detail .css-tnkfhf {
+    border-color: rgb(43, 43, 43);
+    background-color: rgb(39, 39, 39);
+}
+.is_detail .css-tnkfhf .e1bynr150 textarea {
+    min-height: 44px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.is_detail .css-sib90e {
+    border-top-color: rgb(109 109 109);
+}
+.css-mcs3wx {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid rgb(62 62 62);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 34px;
+    background-color: rgb(64 64 64);
+    color: rgb(203, 203, 203);
+    pointer-events: none;
+}
+.css-rtks9v:hover, .css-rtks9v:active, .css-rtks9v.active {
+    background-image: url(images/IcoCmtSticker.svg);
+}
+.css-tjqi2u {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 358px;
+    height: 278px;
+    padding: 0px;
+    border: 1px solid #7255ee;
+    border-radius: 10px;
+    background-color: rgb(51 51 51);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    z-index: 20;
+}
+.css-lvzxhi:not(:disabled)::before {
+    display: block;
+    position: absolute;
+    width: 55px;
+    top: 0px;
+    height: 37.5px;
+    background-image: url(none);
+    background-size: 55px;
+    content: "";
+}
+.css-bhcgqy {
+    color: rgb(213 213 213);
+}
+.css-v5d3pk strong {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(210 210 210);
+    line-height: 18px;
+}
+.css-y2hj1s {
+    flex: 0 0 auto;
+    margin: -2px 0px 0px 6px;
+    padding: 0px 6px;
+    border-radius: 4px;
+    background-color: rgb(47 47 47);
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(151, 151, 151);
+    line-height: 22px;
+}
+.css-unikqi {
+    background-color: rgb(29, 29, 29);
+    min-width: 1200px;
+}
+.css-11kg2il h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 34px;
+    margin-bottom: 36px;
+}
+.css-1e0ighl {
+    float: right;
+    position: relative;
+    width: 103px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #7255ee;
+    background-color: rgb(55 55 55);
+    font-size: 14px;
+    font-weight: 600;
+    color: #7255ee;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.css-13e1ump.active, .css-13e1ump:active {
+    border-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-43lm8b::after {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    z-index: -2;
+    border-radius: inherit;
+    border: 1px solid rgb(55 55 55);
+    background-color: rgb(61 61 61);
+    transition: border 0.3s ease 0s;
+    content: "";
+}
+.css-43lm8b {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    margin-left: 9px;
+    padding: 0px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 40px;
+    text-align: center;
+    vertical-align: top;
+    transition: color 0.3s ease 0s;
+}
+.css-43lm8b::before {
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    border-radius: inherit;
+    background-color: #7255ee;
+    transform: scale(0);
+    transition: transform 0.2s ease 0s;
+    content: "";
+}
+.css-43lm8b.active, .css-43lm8b:active {
+    border-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-43lm8b::before {
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    border-radius: inherit;
+    background-color: #7255ee;
+    transform: scale(0);
+    transition: transform 0.2s ease 0s;
+    content: "";
+}
+.css-43lm8b:hover {
+    color: #FFF;
+}
+.css-43lm8b:hover::after {
+    border-color: #7255ee;
+}
+.css-5e8sz2 span {
+    display: block;
+    margin-top: 18px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.css-8mkrbo li {
+    position: relative;
+    margin-top: 9px;
+    padding-left: 12px;
+    color: rgb(216 216 216);
+    font-family: NanumSquare;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.17;
+}
+.css-8mkrbo li::before {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    margin-top: -2px;
+    border-radius: 50%;
+    background-color: rgb(215 215 215);
+    content: "";
+}
+.css-1l5aipm {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: rgb(216 216 216);
+    vertical-align: top;
+    line-height: 1;
+}
+.css-14888ew span {
+    display: block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/btn_checkbox.svg);
+    background-size: 20px;
+    background-position: 0px 0px;
+    font-size: 0px;
+    cursor: pointer;
+}
+.css-14888ew input[type="checkbox"]:checked + span {
+    background-image: url(images/btn_checkbox_on.svg);
+}
+.css-qtktuz {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid rgb(54 54 54);
+    background-color: rgb(53 53 53);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    height: 42px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+}
+.css-r71pj2 {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-qtktuz:hover, .css-qtktuz:active {
+    border-color: rgb(40 40 40);
+    background-color: rgb(41 41 41);
+}
+.css-r71pj2:hover, .css-r71pj2:active {
+    border-color: #6245de;
+    background-color: #6245de;
+}
+.css-1agxmd1 textarea {
+    overflow-y: auto;
+    width: 100%;
+    height: 184px;
+    margin-top: 18px;
+    padding: 27px;
+    border-radius: 6px;
+    border: 1px solid rgb(39 39 39);
+    background-color: rgb(38 38 38);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.css-ksksxh {
+    position: relative;
+    margin: 8px 0px 0px 9px;
+    padding: 0px 28px 0px 9px;
+    border-radius: 4px;
+    background-color: rgb(48 48 48);
+    font-size: 18px;
+    color: rgb(246 246 246);
+    line-height: 38px;
+    white-space: nowrap;
+}
+.css-1agxmd1 textarea:hover, .css-1agxmd1 textarea:focus {
+    border-color: #7255ee;
+}
+.css-1jo2up3 {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(31 31 31);
+    background-color: rgb(44 44 44);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+}
+.css-1jo2up3:hover, .css-1jo2up3:active {
+    border-color: rgb(35 35 35);
+    background-color: rgb(34 34 34);
+}
+.css-1rdydt6 {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-1rdydt6:hover, .css-1rdydt6:active {
+    border-color: #6245de;
+    background-color: #6245de;
+}
+.css-1evxcsj {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(32 32 32);
+    border-radius: 6px;
+}
+.is_maximize .css-pxg06d {
+    padding: 0px 15px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(45 45 45);
+    background-color: rgb(51 51 51);
+    line-height: 34px;
+}
+.is_maximize .css-pxg06d em {
+    color: rgb(255 255 255);
+    line-height: 34px;
+}
+.css-j3yxen, .css-j3yxen:hover, .css-j3yxen:active {
+    border: 0px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.is_maximize .css-pxg06d:hover, .is_maximize .css-pxg06d:active {
+    border-color: #7255ee;
+    transition: all 0.3s ease 0s;
+}
+.is_maximize .css-pxg06d:hover em, .is_maximize .css-pxg06d:active em {
+    color: #7255ee;
+    transition: all 0.3s ease 0s;
+}
+.css-1qh8jok {
+    border: 1px solid rgb(49 48 48);
+    border-radius: 10px;
+    background-color: rgb(50 50 50);
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.css-1s9etqr .name {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 14px;
+}
+.css-1s9etqr .num {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(183 183 183);
+    line-height: 16px;
+}
+.css-1qh8jok::before {
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid rgb(50 50 50);
+    border-right: 1px solid rgb(50 50 50);
+    background-color: rgb(50 50 50);
+    content: "";
+}
+.is_maximize .css-1bdmrwt {
+    padding: 0px 15px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7255ee;
+    background-color: #7255ee;
+    line-height: 34px;
+}
+.css-1541iov {
+    height: 37px;
+    border: 1px solid rgb(45 45 45);
+    background-color: rgb(51 51 51);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.css-1541iov:hover, .css-1541iov:active {
+    border-color: #7255ee;
+    color: #7255ee;
+    transition: all 0.3s ease 0s;
+}
+.css-1541iov svg, .css-1541iov svg {
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.css-1541iov:hover svg, .css-1541iov:active svg {
+    color: #7255ee;
+    transition: all 0.3s ease 0s;
+}
+.is_maximize .css-1bdmrwt:hover, .is_maximize .css-1bdmrwt:active {
+    border-color: #7255ee;
+    transition: all 0.3s ease 0s;
+}
+.css-40zjs8::before {
+    position: absolute;
+    inset: 0px;
+    border-radius: 19px;
+    background-color: rgb(52 52 52);
+    transform: scale(0);
+    transition: transform 0.3s ease 0s;
+    z-index: 1;
+    content: "";
+}
+.css-1glxfbx {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: rgb(43 43 43);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    z-index: 20;
+    border: 1px solid rgb(43 43 43);
+}
+.css-l29ikp i {
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(43 43 43);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+.css-3n4fs3 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(54 54 54);
+    background-color: rgb(57 57 57);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 50px;
+}
+.css-3n4fs3:hover, .css-3n4fs3:active {
+    background-color: rgb(43 43 43);
+    border-color: rgb(38 38 38);
+}
+.css-13mxzog {
+    padding: 82px 0px 36px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+.css-1jhz0a2 .title {
+    display: inline-block;
+    position: relative;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgb(255 255 255);
+    vertical-align: top;
+}
+.css-1jhz0a2 .text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(220 220 220);
+    white-space: pre-line;
+}
+.css-v2wqk3 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid rgb(45 45 45);
+    background-color: rgb(45 45 45);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(202 202 202);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 36px;
+}
+.css-v2wqk3:hover, .css-v2wqk3:active {
+    background-color: rgb(39 39 39);
+    border-color: rgb(33 33 33);
+}
+.css-1e21vdk {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: rgb(43, 43, 43);
+    border: solid 1px rgb(39, 39, 39);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06);
+    z-index: 20;
+    padding: 9px 0;
+}
+.css-resn6h .result {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+}
+.css-1wsalvc {
+    overflow-y: auto;
+    margin: 27px -36px 0px;
+    padding: 27px 36px 15px;
+    border-top: 1px solid rgb(27 27 27);
+    background-color: rgb(31 31 31);
+}
+.css-ujfw1z:not(.popup_make) {
+    border-radius: 10px;
+    background-color: rgb(40 40 40);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-xxs7aq p {
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 66px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: rgb(186 186 186);
+    line-height: 22px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-wrap: break-word;
+}
+.css-1i3k3s1 {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 15px;
+}
+.css-1u53u9z {
+    position: absolute;
+    top: 24px;
+    right: 18px;
+    z-index: 20;
+    width: 18px;
+    height: 18px;
+    transform: rotate(0deg);
+    background: url(images/layers_icon_close_nor_new.svg) 0% 0% / 18px no-repeat;
+    transition: transform 0.3s ease 0s;
+}
+.css-1sba20r:not(.popup_default .css-1sba20r) {
+    height: 66px;
+    padding: 0px 40px 0px 30px;
+    border-bottom: 1px solid rgb(40 40 40);
+    background-color: rgb(46 46 46);
+    line-height: 66px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px 0px;
+    box-sizing: border-box;
+}
+.css-ef6lgn:not(.popup_make) {
+    border-radius: 10px;
+    background-color: rgb(41 41 41);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-1sba20r strong {
+    font-size: 18px;
+    color: rgb(255 255 255);
+}
+.css-1fs0w6j {
+    min-width: 1200px;
+    position: relative;
+    flex: 0 0 auto;
+    height: 66px;
+    padding: 15px 0px 0px 18px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.css-h1rq0t {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 9px;
+    border-radius: inherit;
+    background-color: #7255ee;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 16px;
+    white-space: pre-line;
+    box-sizing: border-box;
+}
+.css-180ax72 {
+    position: relative;
+    height: calc(100% - 50px);
+    padding: 9px;
+    border-radius: 0px 0px 6px 6px;
+    border: 1px solid rgb(20 20 20);
+    background-color: rgb(33 33 33);
+    box-sizing: border-box;
+}
+.css-4syiuk button:first-of-type::before {
+    display: block;
+    position: absolute;
+    inset: 0px;
+    border: 2px solid rgb(57 57 57);
+    border-radius: 6px;
+    background-color: rgb(55 55 55);
+    content: "";
+}
+.css-ektm3z {
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    padding: 0px 8px;
+    border-radius: 11px;
+    border: 1px solid rgb(57 57 57);
+    background-color: rgb(63 63 63);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.48px;
+    vertical-align: top;
+}
+.css-ektm3z em {
+    color: rgb(255 255 255);
+}
+.css-1t2sjts {
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #7255ee;
+    background-color: rgb(50 50 50);
+}
+.css-zj9wke {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 9px;
+    border-radius: inherit;
+    background-color: rgb(55 55 55);
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    line-height: 16px;
+    white-space: pre-line;
+    box-sizing: border-box;
+}
+.css-1t2sjts::before {
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    margin: 0px auto;
+    background: url(images/layers_icon_button_plus_nor.png) 0% 0% / 12px 12px no-repeat;
+}
+.css-z1v2ww {
+    overflow-y: auto;
+    position: relative;
+    flex: 0 0 auto;
+    width: 58px;
+    border-radius: 6px 0px 0px 6px;
+    background-color: rgb(39 39 39);
+    scrollbar-width: none;
+}
+.css-1h3f1k5 {
+    width: 100%;
+    height: 54px;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: rgb(38 38 38);
+    background-color: rgb(39 39 39);
+    font-family: NanumGothicOTF, 나눔고딕, NanumGothic, -apple-system, "맑은 고딕", "Malgun Gothic", 돋움, dotum, Helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+.css-1iec2pi {
+    position: relative;
+    z-index: 1;
+    width: 192px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(23 23 23);
+    background-color: rgb(27 27 27);
+    flex: 0 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.css-z1v2ww::before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 1px;
+    background-color: rgb(37 37 37);
+    content: "";
+}
+.css-1ld9ynf {
+    overflow-y: auto;
+    flex: 1 1 auto;
+    position: relative;
+    border-radius: 0px 6px 6px 0px;
+    background: url(images/entry_bg.svg);
+}
+.css-1549gml em {
+    margin-left: 6px;
+    font-family: NanumGothicOTF, 나눔고딕, NanumGothic, -apple-system, "맑은 고딕", "Malgun Gothic", 돋움, dotum, Helvetica, arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.56px;
+    color: rgb(255 255 255);
+}
+.css-1ld9ynf path {
+    filter: brightness(85%);
+}
+.css-1ld9ynf rect {
+    filter: brightness(80%);
+}
+.css-1ld9ynf text {
+    filter: brightness(96%);
+}
+.css-1iec2pi path {
+    filter: brightness(85%);
+}
+.css-1iec2pi rect {
+    filter: brightness(80%);
+}
+.css-1iec2pi text {
+    filter: brightness(96%);
+}
+.css-1jldjw6 {
+    position: relative;
+    border: 1px solid rgb(28 28 28);
+    border-radius: 20px;
+    background-color: rgb(33 33 33);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    padding: 36px 24px;
+}
+.css-pzqf0p {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 26px;
+    text-align: center;
+}
+.css-v7ytcz {
+    margin-top: 9px;
+    font-size: 16px;
+    color: rgb(214 214 214);
+    line-height: 18px;
+    text-align: center;
+}
+.css-1yjb7o2 .e1an3io39 {
+    margin-top: 27px;
+    padding: 24px 27px;
+    border-radius: 6px 6px 0px 0px;
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(69 69 69);
+    border-right-color: rgb(68 68 68);
+    border-left-color: rgb(69 69 69);
+    border-left-color: rgb(68 68 68);
+    border-bottom-style: initial;
+    border-bottom-color: initial;
+}
+.css-1722bxo {
+    position: relative;
+    padding-left: 11px;
+    font-size: 16px;
+    color: rgb(199 199 199);
+    line-height: 22px;
+    white-space: pre-line;
+}
+.css-1722bxo::before {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgb(198 198 198);
+    content: "";
+}
+.css-1kng9u3 {
+    display: block;
+    margin: 0px 27px;
+    padding: 18px 27px;
+    border: 1px solid rgb(53 53 53);
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(45 45 45);
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.css-1kng9u3 em {
+    display: inline-block;
+    width: calc(100% - 20px);
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(217 217 217);
+    line-height: 20px;
+    white-space: normal;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.css-pt8meb {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid rgb(62 62 62);
+    background-color: rgb(60 60 60);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(198 198 198);
+    line-height: 42px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+}
+.css-pt8meb:hover, .css-pt8meb:active {
+    border-color: rgb(69 69 69);
+    background-color: rgb(74 74 74);
+}
+.css-1blyyix {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid rgb(106 106 106);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgb(53 53 53);
+    color: rgb(203, 203, 203);
+    pointer-events: none;
+}
+.css-1blyyix:hover, .css-1blyyix:active {
+    border-color: rgb(236, 236, 236);
+    background-color: rgb(116 116 116);
+}
+.css-1kng9u3.active {
+    border-top-color: #7255ee;
+    background-color: #7255ee;
+}
+.css-acq04s {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #7255ee;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-acq04s:hover, .css-acq04s:active {
+    border-color: #6245de;
+    background-color: #6245de;
+}
+.se-viewer:lang(ko-KR) .se-section-quotation.se-l-quotation_line .se-quote .se-ff- {
+    font-family: se-nanumgothic, arial, "\B098\B214\ACE0\B515", nanumgothic, sans-serif, Meiryo;
+    color: #FFF !important;
+}
+.se-viewer:lang(ko-KR) .se-section-quotation.se-l-quotation_line .se-cite .se-ff- {
+    font-family: se-nanumgothic, arial, "\B098\B214\ACE0\B515", nanumgothic, sans-serif, Meiryo;
+    color: #DDD !important;
 }
