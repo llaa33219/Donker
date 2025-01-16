@@ -1793,7 +1793,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-2m40so li {
     background-color: rgb(29, 29, 29);
-    border-bottom: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(83 83 83);
     transition: background-color 0.3s ease 0s;
 }
 .css-2m40so a strong {
@@ -3917,13 +3917,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: relative;
     background-color: rgb(55, 55, 55);
     padding-left: 30px;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
 }
 .entryPopup .entryPopupWindow {
     background-color: rgb(81 81 81);
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
 }
 .entryPopup .entryEngineMinimize .entryCoordinateButtonMinimize {
     width: 16px;
@@ -3952,15 +3948,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .entryPopup .entryRunButtonBigMinimize, .css-iek55d .entryRunButtonBigMinimize {
     background-image: url(images_2/play_big.svg) !important;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
 }
 .css-1khpjr3 {
     background: url(images/layers_icon_close_nor_new.png) 0% 0% / 20px no-repeat;
-}
-#entryCanvas {
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
 }
 .css-1t013ij .dsc {
     padding: 26px 27px 26px 41px;
@@ -7501,4 +7491,561 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     text-align: center;
     line-height: 22px;
     white-space: pre-line;
+}
+#IcoWorldMake_svg__b, #IcoWorldMake_svg__d {
+    display: none !important;
+}
+.css-c0y4ll.disabled svg {
+    color: #ffffff;
+}
+.css-c0y4ll svg {
+    color: #FFF;
+}
+.css-c0y4ll svg circle {
+    fill: #606060 !important;
+    stroke: #606060 !important;
+}
+.css-c0y4ll.disabled svg circle {
+    fill: #333 !important;
+    stroke: #333 !important;
+}
+.css-1f3oyhc {
+    border: 1px solid rgb(29 29 29);
+    background-color: rgb(17 17 17);
+    color: rgb(97 97 97);
+}
+.css-1f3oyhc svg {
+    color: rgb(75 75 75);
+}
+.css-zv6m2b .box_inner {
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+    height: 254px;
+    border: 1px solid rgb(85 85 85);
+    border-radius: 20px;
+}
+.css-fpvk77 li {
+    position: relative;
+    border-top: 1px solid rgb(85 85 85);
+}
+.css-khtxnp {
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border: 1px solid rgb(51 51 51);
+    border-radius: 4px;
+    background-color: rgb(54 54 54);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+}
+.css-tpka56 {
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border: 1px solid rgb(54 54 54);
+    background-color: rgb(52 52 52);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+    border-radius: 4px 4px 0px 0px;
+}
+.css-1hwtuls {
+    display: block;
+    overflow-y: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 47px;
+    max-height: 310px;
+    background-color: rgb(53 53 53);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(53 53 53) rgb(53 52 52) rgb(53 53 53);
+    border-radius: 0px 0px 4px 4px;
+}
+.css-1hwtuls dl > dd {
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 9px 18px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 16px;
+}
+.css-1hwtuls dl > dt {
+    padding: 9px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(151 151 151);
+    line-height: 14px;
+}
+.css-1hwtuls dl {
+    overflow: hidden;
+    padding: 9px 0px;
+    border-top: 1px solid rgb(99 99 99);
+}
+.css-1fmm94c .e1t0bv480 input[type='text'] {
+    height: 58px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+.css-vazdax {
+    background-color: rgb(29, 29, 29);
+}
+.css-vazdax {
+    min-width: 1200px;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    position: relative;
+    background-color: rgb(29, 29, 29);
+}
+.css-vazdax {
+    min-width: 1200px;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    position: relative;
+    background-color: rgb(29, 29, 29);
+}
+.css-10krsh2 .name {
+    display: block;
+    overflow: hidden;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.css-1q0ehoo .e52xoqd0 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(255 255 255);
+}
+.css-1uy09wx .prev {
+    margin-right: 14px;
+    background-image: url(images/IconPaginatePrevOn.svg);
+}
+.css-1uy09wx .prev.disabled {
+    background-image: url(images/IconPaginatePrevOff.svg);
+    pointer-events: none;
+}
+.css-1uy09wx .next {
+    float: right;
+    margin-left: 14px;
+    background-image: url(images/IconPaginateNextOn.svg);
+}
+.css-1uy09wx .next.disabled {
+    background-image: url(images/IconPaginateNextOff.svg);
+    pointer-events: none;
+}
+.css-1uy09wx .cnt em {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    letter-spacing: -1.5px;
+    transition: color 0.3s ease 0s;
+    z-index: 10;
+    line-height: 30px;
+}
+.css-1uy09wx .cnt::after {
+    background-color: #7255ee;
+}
+.css-15qcrab {
+    overflow-y: auto;
+    flex: 1 1 auto;
+    position: relative;
+    border-radius: 6px;
+    background: url(images/entry_bg.svg);
+}
+#codingeditor_board path {
+    filter: brightness(85%);
+}
+#codingeditor_board rect {
+    filter: brightness(80%);
+}
+.css-tqhogh:not(.popup_make) {
+    border-radius: 10px;
+    background-color: rgb(34 34 34);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-mrir6y {
+    display: block;
+    padding-bottom: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 24px;
+}
+.css-1j7tho6 {
+    background-color: rgb(42 42 42);
+}
+.css-sib90e {
+    border-top: 1px solid rgb(84 84 84);
+}
+.css-ilctqs .e1bdhxug2 {
+    border: 1px solid rgb(40, 40, 40);
+    background-color: rgb(43, 43, 43);
+}
+.css-17v3e9e:hover, .css-17v3e9e:active {
+    background-image: linear-gradient(rgb(36 36 36), rgb(48 48 48));
+}
+.css-wfq27f {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+    background-color: #444;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #444;
+    border-image: initial;
+    border-radius: 4px 4px 0px 0px;
+}
+.css-wfq27f ul li > a {
+    display: block;
+    overflow: hidden;
+    padding: 9px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(223 223 223);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 13px;
+}
+.css-wfq27f ul li > a:hover, .css-wfq27f ul li > a:active {
+    color: rgb(165 165 165);
+}
+.css-uza28j {
+    height: 300px;
+    padding: 0px 0 57px;
+    background-color: #000;
+}
+.css-19cz2xs input[type='text']:focus, .css-19cz2xs input[type='password']:focus {
+    border-color: #7255ee;
+}
+.css-1cooiky {
+    border: 1px solid #7255ee;
+    background-color: #7255ee;
+    color: #fff;
+}
+.css-1cooiky:hover, .css-1cooiky:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-lv5cjh p {
+    padding-top: 72px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    text-align: left;
+    line-height: 24px;
+}
+.css-fyu8bm {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 60px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-fyu8bm:hover, .css-fyu8bm:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-2jhqyl {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    vertical-align: top;
+    line-height: 20px;
+}
+.css-1ypw5x {
+    overflow: hidden auto;
+    height: 132px;
+    margin-top: 18px;
+    padding: 27px;
+    border-radius: 10px;
+    border: 1px solid rgb(122 122 122);
+    word-break: break-all;
+}
+.css-vjqh1l {
+    margin: 0px;
+    font-size: 14px;
+    color: rgb(192 192 192) !important;
+    line-height: 24px;
+    white-space: pre-wrap;
+    height: 132px;
+}
+.css-oahzwu {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid #7255ee;
+    background-color: #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: border 0.3s ease 0s, background-color 0.3s ease 0s, color 0.3s ease 0s;
+    line-height: 70px;
+}
+.css-oahzwu:hover, .css-oahzwu:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-1k697za {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: border 0.3s ease 0s, background-color 0.3s ease 0s, color 0.3s ease 0s;
+    line-height: 70px;
+    border: 1px solid rgb(30, 200, 0);
+    background-color: rgb(53 53 53);
+    color: rgb(255, 255, 255);
+}
+.css-1gg0ecf {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: border 0.3s ease 0s, background-color 0.3s ease 0s, color 0.3s ease 0s;
+    line-height: 70px;
+    border: 1px solid rgb(25, 58, 151);
+    background-color: rgb(53, 53, 53);
+    color: rgb(255 255 255);
+}
+.css-1li0zeh {
+    color: rgb(255 255 255);
+}
+.css-191bmf5 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #7255ee;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 60px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-191bmf5:hover, .css-191bmf5:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-16p8kgk {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(61 61 61);
+    background-color: rgb(64 64 64);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    line-height: 60px;
+}
+.css-16p8kgk:hover, .css-16p8kgk:active {
+    background-color: rgb(99 99 99);
+    border-color: rgb(94 94 94);
+}
+.css-1vw3pwp input[type="text"], .css-1vw3pwp input[type="password"] {
+    border: 1px solid rgb(255, 67, 32);
+    background: rgb(39, 39, 39);
+}
+.css-1vw3pwp em {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 12px 18px;
+    background-color: rgb(70 70 70);
+    border-radius: 4px;
+    box-sizing: content-box;
+    z-index: 20;
+}
+.css-1vw3pwp input[type="text"]:focus, .css-1vw3pwp input[type="password"]:focus {
+    border-color: #7255ee;
+}
+.css-p3i1lo {
+    color: rgb(255 255 255);
+}
+.css-1xpaqbt > label > em {
+    display: inline-block;
+    margin-left: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    vertical-align: top;
+    line-height: 20px;
+}
+.css-1hx18l3 {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border-radius: 4px;
+    border: 1px solid rgb(58 58 58);
+    background-color: rgb(66 66 66);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+    text-align: left;
+}
+.css-ae188u {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border: 1px solid rgb(59 59 59);
+    background-color: rgb(66, 66, 66);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+    text-align: left;
+    border-radius: 4px 4px 0px 0px;
+}
+.css-1vwfbid ul li > a {
+    display: block;
+    overflow: hidden;
+    padding: 16px 18px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.css-1vwfbid ul li > a:hover, .css-1vwfbid ul li > a:active {
+    color: rgb(169 169 169);
+    font-weight: 600;
+}
+.css-1vwfbid {
+    display: block;
+    overflow-y: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 47px;
+    z-index: 10;
+    max-height: inherit;
+    border-radius: 0px 0px 4px 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(143 143 143) rgb(57 57 57) rgb(52 52 52);
+    border-image: initial;
+    background-color: rgb(66, 66, 66);
+}
+.css-1iqyhdp {
+    background-color: rgb(36 41 39);
+    border: 1px solid rgb(22 25 24);
+}
+.css-e1tskj label {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 18px;
+}
+.css-1iqyhdp p {
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 20px;
+}
+.css-e1tskj .CertifyButton {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 117px;
+    height: 48px;
+    border: 1px solid #7255ee;
+    border-radius: 4px;
+    background-color: rgb(51 51 51);
+    font-size: 16px;
+    font-weight: 600;
+    color: #7255ee;
+    text-align: center;
+    line-height: 48px;
+}
+.css-e1tskj.InnerStyle + .InnerStyle .CertifyButton {
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-13eisyr {
+    background-color: #7255ee;
+    border-color: #7255ee;
+}
+.css-13eisyr:hover, .css-13eisyr:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-14wq069 {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 67, 32);
+    background-color: rgb(66, 66, 66);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+    text-align: left;
+}
+.css-oymgsv {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    padding: 0px 42px 0px 18px;
+    border: 1px solid rgb(255, 67, 32);
+    background-color: rgb(66, 66, 66);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 46px;
+    text-align: left;
+    border-radius: 4px 4px 0px 0px;
 }
