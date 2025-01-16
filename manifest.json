@@ -1,7 +1,7 @@
 {
   "name": "엔트리-Donker",
   "description": "엔트리 다크테마",
-  "version": "1.7",
+  "version": "1.8",
   "manifest_version": 3,
 
   "host_permissions": [
