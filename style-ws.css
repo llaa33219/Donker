@@ -243,7 +243,7 @@
     margin-left: 4px;
     border: 1px solid #7255ee;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #3d3d3d;
     background-size: 10px auto;
     font-size: 12px;
     font-weight: 600;
@@ -3698,4 +3698,32 @@ text.null.entryBoardObjectName {
     border-color: #7255ee;
     color: #7255ee;
     z-index: 10;
+}
+.entryCanvasWorkspace {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 268px;
+    background-color: #fff;
+    border-top: 1px solid #272727 !important;
+    vertical-align: top;
+}
+.entryPopupWindow>.entryEngineWorkspace_w>.entryEngineButtonWrapper {
+    display: block;
+    height: 48px;
+    border-top: 1px solid #3d3d3d;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+.entryObjectNameWorkspace:disabled {
+    background-color: #3b3b3b !important;
+}
+.degeLa {
+    display: inline-block;
+    width: 65px;
+    height: 72px;
+    border-right: 1px solid rgb(216, 216, 216);
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
 }
