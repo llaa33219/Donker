@@ -291,7 +291,7 @@
 }
 .css-1kivsx6 {
     margin-top: 18px;
-    background-color: rgb(30 41 38);
+    background-color: rgb(30 41 38) !important;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
 }
@@ -8779,4 +8779,26 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border: 1px solid rgb(43 43 43);
     background-color: rgb(45 45 45);
     box-sizing: border-box;
+}
+.customProfilePopup-content {
+    width: 260px;
+    background-color: rgb(40 40 40);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+    font-family: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(60 60 60);
+    border-image: initial;
+    border-radius: 20px;
+    padding: 10px;
+}
+.customProfilePopup-follow-label {
+    color: rgb(200, 200, 200);
+}
+.customProfilePopup-desc {
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+}
+.customProfilePopup-follow-count {
+    color: rgb(255, 255, 255);
 }
