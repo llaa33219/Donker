@@ -1,3 +1,8 @@
+html, body, #root {
+    font-family: NanumSquareWebFont, '나눔고딕', NanumGothic, -apple-system, '맑은 고딕', Malgun Gothic, '돋움', dotum, Helvetica, arial, sans-serif;
+    min-width: 320px;
+    background-color: rgb(44, 44, 44);
+}
 .css-1c5lxa3 {
     position: relative;
     z-index: 100;
@@ -1097,7 +1102,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     letter-spacing: 0px;
 }
 .css-1xk0vcr p span {
-    color: rgb(233, 233, 233) !important;
+    color: rgb(0, 0, 0) !important;
     background-color: transparent !important;
 }
 .css-13nge8u {
@@ -3328,10 +3333,26 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     font-family: inherit;
     color: #FFF;
 }
-.se-viewer .se-section-text.se-l-default .se-text-paragraph span {
-    line-height: 1.8;
-    color: #FFF !important;
-    background-color: #FFFFFF00 !important;
+/* 1. 컨테이너에 invert 필터 적용 */
+.se-viewer .se-section-text.se-l-default .se-text-paragraph {
+    filter: invert(1);
+}
+
+/* 2. inline 스타일에 텍스트 색상(color)이 명시되지 않은 요소에 대해 기본 텍스트 색상을 #000으로 강제 적용 
+   - 단, 스타일 속성이 "color:"로 시작하거나, 중간에 ";color:"가 포함된 경우는 텍스트 색상이 명시된 것으로 간주 */
+.se-viewer .se-section-text.se-l-default .se-text-paragraph *:not([style^="color:"]):not([style*=";color:"]) {
+    color: #111 !important;
+}
+
+/* 3. inline 스타일에 텍스트 색상이 지정된 요소의 하위 요소는 부모의 색상을 상속하도록 처리 */
+.se-viewer .se-section-text.se-l-default .se-text-paragraph [style*="color:"] * {
+    color: inherit !important;
+}
+
+/* 4. 흰색(#ffffff) 텍스트 색상이 지정된 요소도 검은색(#000)으로 변경 */
+.se-viewer .se-section-text.se-l-default .se-text-paragraph [style*="color:#ffffff"], 
+.se-viewer .se-section-text.se-l-default .se-text-paragraph [style*="color: #ffffff"] {
+    color: #111 !important;
 }
 .css-6c79l7 h3 {
     font-size: 24px;
@@ -8801,4 +8822,305 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .customProfilePopup-follow-count {
     color: rgb(255, 255, 255);
+}
+.css-ph4b4j p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 24px;
+}
+.css-eqmb5r .input input[type="text"], .css-1jkpdj7 .input input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 46px;
+    padding: 0px 16px;
+    border: 1px solid rgb(53 53 53);
+    outline: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    background-color: rgb(71 71 71);
+}
+.css-kqwk65 strong {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 26px;
+}
+.css-kqwk65 p {
+    margin-top: 12px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.css-eqmb5r .input:hover input[type="text"], .css-eqmb5r .input:active input[type="text"], .css-1jkpdj7 .input:hover input[type="text"], .css-1jkpdj7 .input:active input[type="text"] {
+    border-color: #7255ee;
+}
+.css-1jjbr9b {
+    position: relative;
+    border: 1px solid rgb(26 26 26);
+    border-radius: 20px;
+    background-color: rgb(29 29 29);
+    max-height: calc(100% - 135px);
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 9px 0px;
+}
+.css-1ippd1j {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 26px;
+}
+.css-f9qmsd {
+    padding: 0px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 24px;
+    white-space: pre-wrap;
+}
+.css-11umhvn {
+    overflow-y: auto;
+    height: 240px;
+    margin-top: 27px;
+    padding: 27px;
+    border: 1px solid rgb(94 94 94);
+    border-radius: 10px;
+}
+.css-la95um {
+    height: 78px;
+    background-color: #7255ee;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+.css-1oah41c {
+    border: 1px solid rgb(57 57 57) !important;
+    background-color: rgb(39 39 39) !important;
+}
+.css-1digq6a strong {
+    display: block;
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(255 255 255) !important;
+    margin-top: 27px;
+    line-height: 36px;
+}
+.css-1digq6a p {
+    margin-top: 18px;
+    font-size: 16px;
+    color: rgb(255 255 255) !important;
+    line-height: 26px;
+}
+.css-8e5uh8 {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255 255 255) !important;
+    color: rgb(0 0 0);
+}
+.css-1digq6a a {
+    display: block;
+    width: 238px;
+    height: 50px;
+    margin: 27px auto 0px;
+    border-radius: 25px;
+    background-color: #7255ee !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+}
+.css-1digq6a a:hover, .css-1digq6a a:active {
+    background-color: #533dae !important;
+    border-color: #4b389d !important;
+}
+.css-mzh2fp {
+    position: relative;
+    box-sizing: border-box;
+    height: 58px;
+    margin-top: 36px;
+    padding: 0px 16px;
+    border: 1px solid rgb(97 97 97);
+    border-radius: 6px;
+    line-height: 56px;
+}
+.css-maj3jm {
+    width: 186px;
+    margin-top: 6px;
+    border-radius: 8px;
+    background-color: rgb(70 70 70);
+    text-align: center;
+}
+.css-9bqaxw {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: rgb(66 66 66);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    z-index: 20;
+    padding: 18px 0px;
+    border: 1px solid rgb(40 40 40);
+}
+.css-xgjnsf {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 20px;
+}
+.css-17jgtli {
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    width: 103px;
+    height: 36px;
+    border: 1px solid #7255ee;
+    border-radius: 18px;
+    background-color: rgb(33 33 33);
+    font-size: 14px;
+    font-weight: 600;
+    color: #7255ee;
+    text-align: center;
+    line-height: 36px;
+}
+.se-body .se-header {
+    position: relative;
+    background-color: #1d1d1d !important;
+    border-bottom: 1px solid var(--__se-header-border-bottom-color);
+}
+.css-1c7ppg3 {
+    position: relative;
+    min-height: 562px;
+    max-height: 1000px;
+    height: 1000px;
+    border-radius: 6px;
+    border: 1px solid rgb(73 73 73);
+    overflow: hidden;
+}
+.se-body .se-document-toolbar .se-toolbar-label {
+    color: #ffffff !important;
+    font-size: 11px;
+}
+.se-body .se-document-toolbar-basic-button.se-text-icon-toolbar-button .se-toolbar-icon {
+    position: absolute;
+    top: 0;
+    bottom: 17px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    filter: brightness(300%);
+}
+.se-body .se-quotation-default-toolbar-button .se-toolbar-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -391px -1006px;
+    filter: brightness(300%);
+}
+.se-body .se-horizontal-line-default-toolbar-button .se-toolbar-icon {
+    width: 28px;
+    height: 24px;
+    background-position: -1113px -806px;
+    filter: brightness(300%);
+}
+.se-body .se-document-toolbar-icon-select-button.se-text-icon-toolbar-button:hover {
+    -webkit-box-shadow: var(--__se-text-icon-toolbar-button-hover-box-shadow);
+    box-shadow: var(--__se-text-icon-toolbar-button-hover-box-shadow);
+    border-color: rgb(59, 59, 59) !important;
+}
+.se-body .se-property-toolbar .se-toolbar-label {
+    color: #ffffff !important;
+    font-size: 12px;
+}
+.se-body .se-bold-toolbar-button .se-toolbar-icon, .se-body .se-italic-toolbar-button .se-toolbar-icon, .se-body .se-strikethrough-toolbar-button .se-toolbar-icon, .se-body .se-toolbar-icon-font-color, .se-body .se-property-toolbar-drop-down-button.se-align-left-toolbar-button .se-toolbar-icon, .se-body .se-line-height-toolbar-button .se-toolbar-icon, .se-body .se-list-bullet-toolbar-button .se-toolbar-icon, .se-body .se-drop-cap-toolbar-button:disabled .se-toolbar-icon, .se-body .se-superscript-toolbar-button .se-toolbar-icon, .se-body .se-subscript-toolbar-button .se-toolbar-icon, .se-body .se-property-toolbar-basic-button .se-toolbar-icon, .se-body .se-link-toolbar-button .se-toolbar-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -985px -274px;
+    filter: brightness(300%);
+}
+.se-body .se-contents-toolbar-wrap {
+    background-color: #333333 !important;
+}
+.se-body .se-contents-toolbar .se-toolbar-label {
+    color: #ffffff !important;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.se-body .se-color-picker-option {
+    border: solid 1px #262626 !important;
+    background-color: #262626 !important;
+}
+.se-body .se-selected-color-hex {
+    color: #ffffff !important;
+}
+.se-body .se-color-picker-more-label {
+    display: inline-block;
+    opacity: .6;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #ffffff !important;
+}
+.se-body .se-color-palette {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #313131;
+    border-width: 1px 0 0 1px;
+}
+.se-body .se-color-picker-apply-label {
+    font-size: 10px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.se-body .se-color-picker-apply-button::before {
+    filter: brightness(300%);
+}
+.se-body .se-canvas.se-theme-default {
+    background-color: #252525 !important;
+}
+.css-1v3ka1a {
+    display: block;
+    position: relative;
+    padding: 18px 0px;
+    background-color: rgb(50 50 50);
+    border: 1px solid rgb(48 48 48);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    z-index: 20;
+}
+.css-1s3ybmc i {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(50 50 50);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+.css-1v3ka1a a {
+    display: block;
+    padding: 9px 0px;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    text-align: center;
+    transition: color 0.3s;
+    line-height: 14px;
+}
+.css-1v3ka1a a:hover, .css-1v3ka1a a:active {
+    font-weight: 600;
+    color: rgb(208 208 208);
 }

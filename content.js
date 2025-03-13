@@ -53,29 +53,33 @@
   function applyCssIfNeeded() {
     // (1) '/ws'로 시작하는지 체크
     const isWsPage = location.pathname.startsWith("/ws");
-
-    // (2) 이미 삽입된 스타일(확장 프로그램에서 만든 것) 확인
-    const oldStyle = document.head.querySelector(`style[${EXT_STYLE_ATTR}]`);
+    // (2) 새 CSS 파일 결정
     const newCssFile = isWsPage ? "style-ws.css" : "style.css";
+    // (3) 기존 스타일 확인
+    const oldStyle = document.head.querySelector(`style[${EXT_STYLE_ATTR}]`);
 
-    // (3) 만약 기존에 삽입된 스타일이 있고, import 경로가 동일하면 재삽입 불필요
+    // (4) 이미 해당 CSS가 적용되어 있다면 아무 작업도 하지 않음
     if (oldStyle && oldStyle.textContent.includes(newCssFile)) {
       console.log("[content.js] Already applied CSS:", newCssFile);
       return;
     }
 
-    // (4) 확장 프로그램이 삽입한 기존 스타일은 제거
-    removeOldStyles();
+    // (5) /ws 페이지일 경우엔 기존 스타일 제거 후 재적용
+    //     기본 페이지일 때는 기존 default CSS(style.css)가 있다면 제거/재적용하지 않음.
+    if (oldStyle && (isWsPage || !oldStyle.textContent.includes("style.css"))) {
+      removeOldStyles();
+    }
 
-    // (5) 새로운 style 태그를 생성 및 삽입
-    const styleEl = document.createElement("style");
-    styleEl.setAttribute(EXT_STYLE_ATTR, "true");
-    styleEl.textContent = `
-      @import url("${chrome.runtime.getURL(newCssFile)}");
-    `;
-    document.head.appendChild(styleEl);
-
-    console.log("[content.js] Applied CSS:", newCssFile);
+    // (6) 스타일 요소가 없는 경우에만 새로 생성 후 삽입
+    if (!document.head.querySelector(`style[${EXT_STYLE_ATTR}]`)) {
+      const styleEl = document.createElement("style");
+      styleEl.setAttribute(EXT_STYLE_ATTR, "true");
+      styleEl.textContent = `
+        @import url("${chrome.runtime.getURL(newCssFile)}");
+      `;
+      document.head.appendChild(styleEl);
+      console.log("[content.js] Applied CSS:", newCssFile);
+    }
   }
 
   // --------------------------------------------------
