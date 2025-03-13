@@ -13,7 +13,23 @@
   applyCssIfNeeded();
 
   // --------------------------------------------------
-  // 1) 경로 변화를 감지하는 메커니즘
+  // 1) 페이지 로드 및 새로고침 처리
+  // --------------------------------------------------
+  // 페이지 로드 완료 시 CSS 재적용 (새로고침 대응)
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("[content.js] Page loaded/refreshed. Reapplying CSS.");
+    // CSS를 즉시 제거 후 재적용 (눈에 보이지 않는 속도로)
+    const currentStyleType = location.pathname.startsWith("/ws") ? "style-ws.css" : "style.css";
+    removeOldStyles();
+    
+    // requestAnimationFrame을 사용해 다음 렌더링 사이클에 CSS 적용 (깜빡임 방지)
+    requestAnimationFrame(() => {
+      applyCssIfNeeded(true); // force 파라미터로 강제 적용
+    });
+  });
+
+  // --------------------------------------------------
+  // 2) 경로 변화를 감지하는 메커니즘
   // --------------------------------------------------
   // (1) pushState, replaceState를 가로채어 경로 변화를 감지
   ["pushState", "replaceState"].forEach(methodName => {
@@ -36,7 +52,7 @@
   // setInterval(onUrlChange, POLLING_INTERVAL);
 
   // --------------------------------------------------
-  // 2) 경로 변경에 따른 CSS 적용 로직
+  // 3) 경로 변경에 따른 CSS 적용 로직
   // --------------------------------------------------
   function onUrlChange() {
     const currentPath = location.pathname;
@@ -48,9 +64,9 @@
   }
 
   // --------------------------------------------------
-  // 3) CSS 적용 함수
+  // 4) CSS 적용 함수
   // --------------------------------------------------
-  function applyCssIfNeeded() {
+  function applyCssIfNeeded(force = false) {
     // (1) '/ws'로 시작하는지 체크
     const isWsPage = location.pathname.startsWith("/ws");
     // (2) 새 CSS 파일 결정
@@ -58,8 +74,8 @@
     // (3) 기존 스타일 확인
     const oldStyle = document.head.querySelector(`style[${EXT_STYLE_ATTR}]`);
 
-    // (4) 이미 해당 CSS가 적용되어 있다면 아무 작업도 하지 않음
-    if (oldStyle && oldStyle.textContent.includes(newCssFile)) {
+    // (4) 이미 해당 CSS가 적용되어 있고 강제 적용이 아니라면 아무 작업도 하지 않음
+    if (!force && oldStyle && oldStyle.textContent.includes(newCssFile)) {
       console.log("[content.js] Already applied CSS:", newCssFile);
       return;
     }
@@ -83,10 +99,18 @@
   }
 
   // --------------------------------------------------
-  // 4) 확장 프로그램 삽입 스타일만 제거하는 함수
+  // 5) 확장 프로그램 삽입 스타일만 제거하는 함수
   // --------------------------------------------------
   function removeOldStyles() {
     const oldStyles = document.head.querySelectorAll(`style[${EXT_STYLE_ATTR}]`);
     oldStyles.forEach(s => s.remove());
+  }
+
+  // --------------------------------------------------
+  // 6) 페이지가 이미 로드된 상태일 때도 작동하도록 설정
+  // --------------------------------------------------
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+    console.log("[content.js] Page already loaded, applying CSS immediately");
+    applyCssIfNeeded(true);
   }
 })();

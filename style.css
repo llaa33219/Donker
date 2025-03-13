@@ -3705,10 +3705,6 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-radius: 30px;
     line-height: 58px;
 }
-.se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- {
-    font-family: se-nanumgothic, arial, "\B098\B214\ACE0\B515", nanumgothic, sans-serif, Meiryo;
-    background-color: rgba(29, 29, 29, 0) !important;
-}
 .css-tstzuf {
     position: relative;
     border-radius: 20px;
