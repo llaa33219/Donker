@@ -4053,7 +4053,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     position: relative;
     min-width: 1200px;
     z-index: 50;
-    background-color: #444;
+    background-color: rgb(45, 45, 45);
 }
 .css-6d2bj4 ul>li>a {
     display: inline-block;
@@ -4070,7 +4070,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     left: 0px;
     right: 0px;
     top: 90px;
-    background-color: #444;
+    background-color: rgb(42, 42, 42s);
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
     z-index: 10;
     transition: height 0.3s ease 0s;
@@ -4223,7 +4223,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     background-color: #7255ee;
     color: rgb(227 227 227);
 }
-.css-1u74wru {
+.css-1u74wru, .css-1kuubcu {
     display: block;
     overflow: hidden;
     box-sizing: border-box;
@@ -4238,7 +4238,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     background-color: #7255ee;
     color: rgb(255, 255, 255);
 }
-.css-1u74wru:hover, .css-1u74wru:active {
+.css-1u74wru:hover, .css-1u74wru:active, .css-1kuubcu:hover, .css-1kuubcu:active {
     background-color: #6245de;
     border-color: #6245de;
 }
@@ -9119,4 +9119,145 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-1v3ka1a a:hover, .css-1v3ka1a a:active {
     font-weight: 600;
     color: rgb(208 208 208);
+}
+.css-1tf5ese {
+    border: 1px solid rgb(44 44 44);
+    border-radius: 15px;
+    background-color: rgb(48 48 48);
+    box-sizing: border-box;
+}
+.css-1mipfry {
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 13px 26px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 14px;
+}
+.css-1tf5ese::before, .css-f20che .e1fr95kd11::before {
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid rgb(48 48 48);
+    border-left: 1px solid rgb(49 49 49);
+    background-color: rgb(49 49 49);
+}
+.css-1ggt15g {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgb(113 113 113);
+    border-radius: 50%;
+    background-color: rgb(55 55 55);
+    box-sizing: border-box;
+}
+.css-1ggt15g:hover, .css-1ggt15g:active {
+    border-color: #7255ee;
+}
+.css-16vmzu {
+    background-color: rgb(22, 22, 22);
+}
+.css-n1gpdv {
+    display: block;
+    padding: 81px 0 63px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 22px;
+    text-align: center;
+    white-space: pre-line;
+}
+.css-si9z6f {
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid rgb(38 38 38);
+    background-color: rgb(33, 33, 33);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px;
+}
+.css-3r2m15::before {
+    position: absolute;
+    inset: 0px -1px 0px 0px;
+    background-color: rgb(33, 33, 33);
+    content: "";
+}
+.css-1aehmnc {
+    border-right: 1px solid rgb(31 31 31);
+    background-color: rgb(40 40 40);
+}
+.css-8s6c41 {
+    position: relative;
+    width: 96px;
+    border-bottom: 1px solid rgb(94 94 94);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(221 221 221);
+    line-height: 48px;
+}
+.css-3r2m15 {
+    position: relative;
+    width: 96px;
+    border-bottom: 1px solid rgb(94 94 94);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #7255ee;
+}
+.css-1e7fvyt label {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(78 78 78);
+}
+.css-kghjz0 .ev4bj9e1 {
+    float: right;
+    height: 32px;
+    padding: 8px 4px 0px;
+    border-radius: 6px;
+    border: 1px solid rgb(46 46 46);
+    background-color: rgb(47 47 47);
+    box-sizing: border-box;
+}
+.css-kghjz0 .ev4bj9e2 {
+    padding: 0px 14px;
+    color: rgb(163 163 163);
+}
+.css-195p6fw {
+    margin: 134px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(237 237 237);
+    line-height: 16px;
+    text-align: center;
+}
+.css-e3bgmp {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #7255ee;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+    line-height: 42px;
+    width: 120px;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-e3bgmp:hover, .css-e3bgmp:active {
+    background-color: #6245de;
+    border-color: #6245de;
+}
+.css-xmmk1b circle {
+    fill: rgb(74, 74, 74);
+    stroke: rgb(47, 47, 47);
+}
+.css-xmmk1b path {
+    fill: rgb(203, 203, 203) !important;
 }
