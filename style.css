@@ -250,7 +250,7 @@ html, body, #root {
 .css-jwhbb2:hover:before {
     background-image: url(images/IcoSearchOn.svg);
 }
-.css-16uxk1v {
+.css-16uxk1v, .css-kz336c {
     overflow: hidden;
     position: absolute;
     left: 0px;
@@ -4083,17 +4083,17 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-1bt45fa {
     display: block;
     height: 40px;
-    background-color: #444;
+    background-color: rgb(45, 45, 45);
     border-radius: 50%;
 }
 .css-19v6b81 {
     display: block;
     height: 40px;
-    background-color: #444;
+    background-color: rgb(45, 45, 45);
     border-radius: 50%;
 }
 .css-9jjt53 {
-    background-color: #444;
+    background-color: rgb(45, 45, 45);
     border-radius: 50%;
     height: 52px;
 }
@@ -9260,4 +9260,237 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 }
 .css-xmmk1b path {
     fill: rgb(203, 203, 203) !important;
+}
+.css-11bz324 .title {
+    color: rgb(255, 255, 255);
+}
+.css-xphtsm .e1ej3wyu0 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+}
+.css-79t10k {
+    display: inline-block;
+    overflow: hidden;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid rgb(54 54 54);
+    background-color: rgb(55 55 55);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 36px;
+    text-align: center;
+    transition: 0.3s;
+    box-sizing: border-box;
+    min-width: 100px;
+    outline: none;
+}
+.css-79t10k:hover, .css-79t10k:active {
+    border-color: rgb(74 74 74);
+    background-color: rgb(81 81 81);
+}
+.css-12dg9hf {
+    display: inline-block;
+    overflow: hidden;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(45 45 45);
+    background-color: rgb(61 61 61);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(230 230 230);
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+    box-sizing: border-box;
+    min-width: 100px;
+    outline: none;
+}
+.css-2xoysf {
+    background-color: #111;
+}
+.css-1ef6un3 {
+    padding: 6px 30px 0px;
+    border-top: 1px solid rgb(39 39 39);
+    background-color: rgb(35, 35, 35);
+}
+.css-j19scc {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0px 52px 0px 43px;
+    border: 1px solid rgb(47 47 47);
+    border-radius: 20px;
+    transition: 0.3s;
+    width: 407px;
+    margin: 0px auto;
+    background-color: rgb(47 47 47);
+}
+.css-1nkqrj1 {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid rgb(62 62 62);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+    line-height: 42px;
+    background-color: rgb(62 62 62);
+    color: rgb(100 100 100);
+    pointer-events: none;
+}
+.css-32xc6q:not(.popup_make) {
+    border-radius: 10px;
+    background-color: rgb(39 39 39);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-nppbc9 {
+    position: relative;
+    background-color: rgb(33 33 33);
+    flex: 1 1 0px;
+}
+.css-172fwmp {
+    border-top: 1px solid rgb(37 37 37);
+    background-color: rgb(37 37 37);
+    display: flex;
+    max-height: calc(-94px + 83vh);
+    padding: 0px;
+}
+.css-ezldmi {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding-bottom: 36px;
+    border-right: 1px solid rgb(26 26 26);
+    background-color: rgb(23 23 23);
+    box-sizing: border-box;
+}
+.css-1k5302h strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 15px;
+}
+.css-zbly96 em {
+    font-size: 15px;
+    color: rgb(255 255 255);
+    line-height: 15px;
+}
+.css-1k5302h em {
+    font-size: 15px;
+    color: rgb(255 255 255);
+    line-height: 15px;
+}
+.css-1iauv9n.sub_floor {
+    margin-top: 10px;
+    padding: 6px 0px 18px;
+    border-top: 1px solid rgb(31 31 31);
+    border-bottom: 1px solid rgb(33 33 33);
+    background-color: rgb(29 29 29);
+}
+.css-1k5302h span {
+    font-size: 14px;
+    color: rgb(236 236 236);
+    line-height: 14px;
+}
+.css-1k5302h span:hover, .css-1k5302h span:active, .css-1k5302h span.active {
+    font-weight: 600;
+    color: #7255ee;
+}
+.css-7p9czi {
+    display: block;
+    border: 1px solid rgb(56 56 56);
+    border-radius: 6px;
+    background-color: rgb(42 42 42);
+    color: rgb(233 233 233);
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+.css-u45xiz .e1kd6xo78 {
+    display: block;
+    width: 118px;
+    margin: 0px auto;
+    border-color: rgb(45 45 45);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 35px;
+}
+.css-7p9czi:hover, .css-7p9czi:active {
+    border-color: #7255ee;
+    color: #7255ee;
+}
+.css-u45xiz .e1kd6xo78:hover, .css-u45xiz .e1kd6xo78:active, .css-u45xiz .e1kd6xo78.active {
+    border-color: #7255ee;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-3uy8hi {
+    overflow: hidden;
+    width: 277px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 36px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.css-19z51b0 {
+    color: #7255ee;
+}
+.css-19z51b0::after {
+    position: absolute;
+    overflow: hidden;
+    inset: 0px;
+    border: 1px solid #7255ee;
+    border-radius: 21px;
+    background-color: rgb(57 57 57);
+    z-index: -2;
+    content: "";
+}
+.css-19z51b0::before {
+    position: absolute;
+    inset: 0px;
+    border-radius: 21px;
+    background-color: #7255ee;
+    transform: scale(0);
+    transition: transform 0.2s;
+    z-index: -1;
+    content: "";
+}
+.css-1cyqeg {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid rgb(58 58 58);
+    background-color: rgb(65 65 65);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(243 243 243);
+    line-height: 34px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.css-1cyqeg path[fill="#FFF"] {
+    fill: rgb(65 65 65) !important;
+}
+.css-1cyqeg path[fill="#555"] {
+    fill: rgb(255 255 255) !important;
+}
+.css-7h5hcy {
+    background-image: url(/images_2/BgExplore.png);
+}
+.css-1pwzfgr .e1cpvx0q3 {
+    color: #ffffff;
 }
