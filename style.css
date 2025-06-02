@@ -9494,3 +9494,14 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-1pwzfgr .e1cpvx0q3 {
     color: #ffffff;
 }
+.playentry-hot-tips-header {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+.playentry-hot-tips-item {
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #007abf !important;
+}
