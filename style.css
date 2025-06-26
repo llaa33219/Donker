@@ -9505,3 +9505,421 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     max-width: 400px;
     background-color: #007abf !important;
 }
+.css-17mvc82 a, .css-146q5r0 a {
+    color: #FFF;
+}
+.css-k3jfuk ul>li>a:hover, .css-k3jfuk ul>li.active>a, .css-1ct49ks ul>li>a:hover, .css-1ct49ks ul>li.active>a {
+    cursor: pointer;
+    font-weight: 600;
+    color: #dadada;
+}
+.css-x43h45 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 40px;
+    text-align: center;
+    white-space: pre-line;
+}
+.css-1agjkye {
+    margin-top: 18px;
+    font-size: 22px;
+    color: rgb(255 255 255);
+    line-height: 22px;
+    text-align: center;
+    white-space: pre-line;
+}
+.css-3abk7i {
+    display: inline-block;
+    min-width: 156px;
+    padding: 0px 18px;
+    border-radius: 26px;
+    border: 1px solid rgb(90 90 90);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.css-1s2ph3g {
+    display: inline-block;
+    min-width: 156px;
+    padding: 0px 18px;
+    border-radius: 26px;
+    border: 1px solid rgb(90 90 90);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.css-av73u2 {
+    overflow: hidden;
+    margin-top: 24px;
+    background-color: rgb(25 25 25);
+}
+.css-oe4wde {
+    padding-bottom: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 40px;
+    text-align: center;
+}
+.css-jkzkcy .eektvb60 {
+    margin-top: 14px;
+    font-size: 18px;
+    color: rgb(255 255 255);
+    line-height: 28px;
+    text-align: left;
+}
+.css-17dt1wi:hover, .css-17dt1wi:active, .css-17dt1wi.active {
+    color: rgb(255 255 255);
+}
+.css-17mvc82 a:hover, .css-146q5r0 a:hover {
+    color: #dcdcdc;
+}
+.is_detail .css-rbvtif {
+    padding: 24px 27px 18px;
+    border-color: rgb(38 38 38);
+    background-color: rgb(40 40 40);
+}
+.css-11uzwh2 {
+    display: inline-block;
+    padding: 0px 9px;
+    border-radius: 2px;
+    border: 1px solid rgb(49 49 49);
+    background-color: rgb(54 54 54);
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 26px;
+    vertical-align: top;
+}
+.css-ihee68 .ezlnfd13 {
+    margin: 0px;
+    padding: 9px 36px 18px;
+    border-radius: 0px 0px 4px 4px;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(68 68 68);
+    border-bottom-color: rgb(68 68 68);
+    border-left-color: rgb(68 68 68);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+}
+.css-mvbnss .eg58q1p11::before {
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid rgb(55 55 55);
+    border-left: 1px solid rgb(55 55 55);
+    background-color: rgb(55 55 55);
+    transform: translateY(50%) rotate(45deg);
+    content: "";
+}
+.css-cuqhm2::before {
+    position: absolute;
+    inset: 0px -1px 0px 0px;
+    background-color: rgb(31 31 31);
+    content: "";
+}
+.css-1sba20r:not(.popup_default .css-1sba20r) {
+    height: 66px;
+    padding: 0px 40px 0px 30px;
+    border-bottom: 1px solid rgb(69 69 69);
+    background-color: rgb(32 32 32);
+    line-height: 66px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px 0px;
+    box-sizing: border-box;
+}
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.css-11jpfcx {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 168px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(48 48 48);
+    background-color: rgb(46 46 46);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+}
+.css-h215fd {
+    -webkit-box-align: center;
+    align-items: center;
+    height: 70px;
+    padding: 0px 18px;
+    position: relative;
+    background-color: rgb(52 52 52);
+}
+.css-sj23yz {
+    overflow: hidden;
+    width: 476px;
+    margin-right: 45px;
+    border-radius: 6px;
+    border: 1px solid rgb(45 45 45);
+    box-sizing: border-box;
+}
+.css-13062to {
+    position: absolute;
+    top: 20px;
+    left: -16px;
+    padding: 16px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.css-18xkwvd {
+    position: relative;
+    width: 100%;
+    padding: 13px 55px 13px 27px;
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-image: initial;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom-style: initial;
+    border-color: rgb(59 59 59);
+    background-color: rgb(59 59 59);
+    color: rgb(255 255 255);
+}
+.css-1sl5f62 {
+    padding: 11px 27px 27px;
+    border-radius: 0px 0px 6px 6px;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(52 52 52);
+    border-bottom-color: rgb(51 51 51);
+    border-left-color: rgb(51 51 51);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+    background-color: rgb(48 48 48);
+    font-size: 16px;
+    color: rgb(255 255 255);
+}
+.css-8kzxt8 {
+    position: relative;
+    width: 100%;
+    padding: 13px 55px 13px 27px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: rgb(59 59 59);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 26px;
+    text-align: left;
+}
+.css-vm0k93 {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 214px;
+    height: 50px;
+    border-radius: 25px;
+    border: #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-vm0k93:hover, .css-vm0k93:active {
+    border-color: #533fac;
+    background-color: #533fac;
+}
+.css-1gcg9ad {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(42 42 42);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: inherit;
+    border: 0px;
+}
+.css-1jdjn7r {
+    display: block;
+    position: relative;
+    margin: 0px 30px;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: rgb(31 31 31);
+}
+.css-od5h2t .e15x88wm17 {
+    margin-top: 0px;
+    background-color: rgb(25 25 25);
+}
+.css-19jjahv p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 24px;
+    white-space: pre-line;
+}
+.css-od5h2t {
+    background-color: rgb(38 38 38);
+}
+.css-1qw63hd {
+    background-color: rgb(12 13 14);
+}
+.css-mbpnwh {
+    font-size: 22px;
+    color: rgb(255 255 255);
+    line-height: 26px;
+}
+.css-1qa3jqf {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 38px;
+    border-radius: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    line-height: 38px;
+}
+.css-1v0p9ig {
+   background-color: #444;
+}
+.css-1dy6gxm {
+    font-size: 22px;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.css-146ehs8 {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(28 33 43);
+    background-image: linear-gradient(rgba(228, 239, 255, 0), rgb(22 23 26));
+}
+.css-12bqb3t {
+    min-width: 1200px;
+    position: relative;
+    flex: 0 0 auto;
+    height: 66px;
+    padding: 15px 0px 0px 18px;
+    box-sizing: border-box;
+    background-color: rgb(0 0 0);
+}
+.css-5lyjee {
+    width: 130px;
+    padding: 11px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 20px;
+}
+.css-bvb5nd strong {
+    margin-top: 4px;
+    font-size: 16px;
+    color: rgb(255 255 255);
+    line-height: 18px;
+}
+.css-1l4v8yy {
+    position: absolute;
+    inset: -2px;
+    border-radius: 20px;
+    border: 2px solid rgb(61 61 61);
+    z-index: 0;
+    cursor: auto;
+}
+.css-1l4v8yy::before {
+    background-color: rgb(35 41 39);
+}
+.css-1jc5u86 {
+    display: block;
+    position: relative;
+    padding: 18px 10px 18px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 16px;
+    cursor: pointer;
+}
+.css-10sagp4 {
+    display: block;
+    position: relative;
+    padding: 18px 10px 18px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 16px;
+    cursor: pointer;
+}
+.css-19ohtt {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    height: 40px;
+    padding: 0px 18px;
+    margin-left: 9px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    text-align: center;
+    vertical-align: top;
+    transition: color 0.3s;
+    line-height: 40px;
+}
+.css-19ohtt::after {
+    position: absolute;
+    overflow: hidden;
+    inset: 0px;
+    border: 1px solid rgb(51 51 51);
+    background-color: rgb(51 51 51);
+    transition: border 0.3s;
+    z-index: -2;
+    content: "";
+}
+.css-6wfg14 {
+    top: -40px;
+    margin-top: -40px;
+    border-top: 40px solid white;
+    position: sticky;
+    padding: 0px 30px;
+    background-color: rgb(37 37 37);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px;
+    z-index: 50;
+}
+.css-pbnq6:not(.popup_make) {
+    border-radius: 10px;
+    background-color: rgb(22 22 22);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
