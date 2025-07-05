@@ -9642,10 +9642,6 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px 0px;
     box-sizing: border-box;
 }
-    font-weight: 600;
-    color: rgb(255 255 255);
-    line-height: 22px;
-}
 .css-11jpfcx {
     display: inline-block;
     overflow: hidden;
@@ -9922,4 +9918,135 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border-radius: 10px;
     background-color: rgb(22 22 22);
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.css-g7mzcy {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    line-height: 22px;
+}
+.css-11jpfcx:hover, .css-11jpfcx:active {
+    border-color: rgb(71 71 71);
+    background-color: rgb(86 86 86);
+}
+.css-1an1ks9 {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(28 28 28);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: inherit;
+    border: 0px;
+}
+.css-v12zr4 {
+    display: block;
+    overflow: hidden;
+    padding: 14px 18px;
+    border-radius: 0px 0px 20px 20px;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgba(0, 0, 0, 0.05);
+    border-bottom-color: rgba(0, 0, 0, 0.05);
+    border-left-color: rgba(0, 0, 0, 0.05);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+    background-color: rgb(55 55 55);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.css-15x3zl0 {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 196px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #7255ee;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    background-color: #7255ee;
+    color: rgb(255, 255, 255);
+}
+.css-15x3zl0:hover, .css-15x3zl0:active {
+    border-color: #533fac;
+    background-color: #533fac;
+}
+.css-zc0cbx .cnt::after {
+    background-color: #7255ee;
+}
+.css-1yp8rau {
+    background-color: #7255ee;
+}
+.css-1yp8rau:hover {
+    background-color: #533fac;
+}
+.css-1mipfry:hover, .css-1mipfry:active {
+    background-color: #7255ee;
+}
+.css-1gp0oe7 input:checked + label {
+    background-color: #7255ee;
+}
+.css-rnernm strong {
+    color: #7255ee;
+}
+.css-6a3rfn {
+    filter: invert(1);
+}
+.css-1xir1du.active, .css-1xir1du:active {
+    background-color: #7255ee;
+}
+.css-1jc5u86 em {
+    color: #7255ee;
+}
+.css-1jc5u86::after {
+    background-color: #7255ee;
+}
+.css-1jc5u86:hover em {
+    color: #7255ee;
+}
+.css-ktpspd:hover, .css-ktpspd:active, .css-ktpspd.active {
+    background-color: #7255ee;
+    border-color: #7255ee;
+}
+.css-ktpspd em {
+    color: #7255ee;
+}
+.css-1sypvgx em {
+    color: #7255ee;
+}
+.css-bvb5nd .info {
+    color: #7255ee;
+}
+.css-ebbqlp {
+    -webkit-box-align: center;
+    align-items: center;
+    height: 112px;
+    margin-top: 8px;
+    padding: 0px calc(14px) 0px 24px;
+    border-radius: 20px;
+    border: 1px solid rgb(27 27 27);
+    background-color: rgb(42 42 42);
+    box-sizing: border-box;
+}
+.css-1u4w4wd::before {
+    filter: invert(1);
+}
+.css-1nuphjb {
+    color: rgb(255, 255, 255);
+}
+.chart-bg-rect {
+    fill: #00000000 !important;
 }
