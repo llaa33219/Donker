@@ -7,77 +7,10 @@
   let lastPath = location.pathname;
   let lastHost = location.hostname;
   
-  // 도메인 변경 감지 관련 변수
-  let domainChangeDetected = false;
-  let refreshScheduled = false;
-  
-  // 도메인 변경 후 새로고침 함수
-  function refreshAfterDomainChange() {
-    if (domainChangeDetected && !refreshScheduled) {
-      refreshScheduled = true;
-      console.log("[content.js] Domain change detected, will refresh page when fully loaded");
-      
-      // 페이지가 이미 로드된 상태라면 바로 새로고침
-      if (document.readyState === "complete") {
-        console.log("[content.js] Page already loaded, refreshing now");
-        setTimeout(() => { window.location.reload(); }, 100);
-        return;
-      }
-      
-      // 페이지 로드 완료 후 새로고침
-      window.addEventListener("load", () => {
-        console.log("[content.js] Page load completed after domain change, refreshing now");
-        setTimeout(() => { window.location.reload(); }, 100);
-      }, { once: true });
-    }
-  }
-  
   // 초기화 함수
   function initialize() {
-    // URL에서 도메인 추출 (예: https://playentry.org/ws -> playentry.org)
-    const extractDomain = (url) => {
-      try {
-        if (!url) return "";
-        // URL 객체를 사용하여 도메인 추출
-        return new URL(url).hostname;
-      } catch (e) {
-        // URL 파싱 실패 시 다른 방법 시도
-        const match = url.match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/);
-        return match ? match[1] : "";
-      }
-    };
-  
-    // 이전 페이지의 도메인을 확인
-    const currentDomain = location.hostname;
-    let previousDomain = "";
-  
-    // document.referrer로 이전 페이지 확인 (가장 신뢰할 수 있는 방법)
-    if (document.referrer) {
-      previousDomain = extractDomain(document.referrer);
-      
-      // 이전 도메인과 현재 도메인이 다르면 도메인 변경으로 간주
-      if (previousDomain && previousDomain !== currentDomain) {
-        console.log("[content.js] Domain change detected via referrer:", 
-          previousDomain, "->", currentDomain);
-        domainChangeDetected = true;
-        refreshAfterDomainChange();
-      }
-    }
-    
-    // history.state에서 이전 URL을 확인 (SPA에서 유용)
-    try {
-      if (history.state && history.state.previousUrl) {
-        const stateRefDomain = extractDomain(history.state.previousUrl);
-        if (stateRefDomain && stateRefDomain !== currentDomain) {
-          console.log("[content.js] Domain change detected via history state:", 
-            stateRefDomain, "->", currentDomain);
-          domainChangeDetected = true;
-          refreshAfterDomainChange();
-        }
-      }
-    } catch (e) {
-      console.error("[content.js] Error checking history state:", e);
-    }
+    // 초기화 로직이 필요한 경우 여기에 추가
+    console.log("[content.js] Content script initialized");
   }
   
   // 초기화 실행
@@ -193,11 +126,6 @@
     if (!document.head.querySelector(`[${EXT_STYLE_ATTR}]`)) {
       earlyApplyCSS();
     }
-    
-    // readyState가 complete이면서 domainChangeDetected가 true인 경우 새로고침
-    if (document.readyState === "complete" && domainChangeDetected && !refreshScheduled) {
-      refreshAfterDomainChange();
-    }
   }, { capture: true });
   
   // DOM 로딩 완료 시 CSS 재확인
@@ -219,7 +147,7 @@
     // 완전 로드 후 MutationObserver 설정
     observeDOM();
     
-    // 주기적으로 URL 변경 체크 (도메인 변경 감지를 위한 추가 보완책)
+    // 주기적으로 URL 변경 체크
     setInterval(checkUrlChange, 200);
   });
 
@@ -290,17 +218,6 @@
   ["pushState", "replaceState"].forEach(methodName => {
     const originalMethod = history[methodName];
     history[methodName] = function (...args) {
-      // 현재 URL 저장 (이전 URL이 됨)
-      if (typeof args[2] === 'string' || args[2] instanceof String) {
-        try {
-          // state 객체에 previousUrl 추가
-          if (!args[0]) args[0] = {};
-          args[0].previousUrl = location.href;
-        } catch (e) {
-          console.error("[content.js] Error saving previous URL:", e);
-        }
-      }
-      
       const result = originalMethod.apply(this, args);
       onUrlChange();
       return result;
@@ -333,15 +250,6 @@
     const currentHost = location.hostname;
     
     if (currentPath !== lastPath || currentHost !== lastHost) {
-      // 도메인 변경 감지
-      if (currentHost !== lastHost && lastHost) {
-        console.log("[content.js] Domain changed from", lastHost, "to", currentHost);
-        domainChangeDetected = true;
-        
-        // 도메인이 변경된 경우 바로 새로고침 스케줄링
-        refreshAfterDomainChange();
-      }
-      
       // 현재 URL 정보 업데이트
       lastPath = currentPath;
       lastHost = currentHost;
@@ -448,43 +356,4 @@
     // 주기적 URL 체크 설정
     setInterval(checkUrlChange, 200);
   }
-  
-  // --------------------------------------------------
-  // 10) 마지막 방법: 강제로 페이지 새로고침 적용 (타임아웃)
-  // --------------------------------------------------
-  // 엔트리는 특수한 구조를 가질 수 있어 직접 도메인을 확인하고 강제 새로고침
-  const forceRefreshCheck = () => {
-    // 현재 URL이 playentry.org 관련 도메인인지 확인
-    if (location.hostname.includes("playentry.org")) {
-      // 페이지 로드 완료 후 현재 URL이 space.playentry.org인지 확인
-      if (location.hostname.includes("space.playentry.org")) {
-        console.log("[content.js] On space.playentry.org domain, force refresh once");
-        // space.playentry.org 도메인에 처음 방문할 때만 새로고침
-        try {
-          const visitedSpaceFlag = localStorage.getItem("entry_visited_space");
-          if (!visitedSpaceFlag) {
-            localStorage.setItem("entry_visited_space", "true");
-            // 페이지 완전 로드 후 새로고침
-            if (document.readyState === "complete") {
-              setTimeout(() => { window.location.reload(); }, 100);
-            } else {
-              window.addEventListener("load", () => {
-                setTimeout(() => { window.location.reload(); }, 100);
-              }, { once: true });
-            }
-          }
-        } catch (e) {
-          console.error("[content.js] Error with localStorage:", e);
-        }
-      } else {
-        // 메인 도메인에 있을 때 space 방문 플래그 제거
-        try {
-          localStorage.removeItem("entry_visited_space");
-        } catch (e) {}
-      }
-    }
-  };
-  
-  // 안전을 위해 지연 실행
-  setTimeout(forceRefreshCheck, 500);
 })();
