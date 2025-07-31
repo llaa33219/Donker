@@ -10163,3 +10163,31 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-pk03ri {
     color: rgb(255 255 255) !important;
 }
+.plakker-popup-header {
+    background-color: #242424 !important;
+}
+.plakker-emoticon-popup {
+    background-color: #303030 !important;
+    border-color: rgb(40 40 40) !important;
+}
+.plakker-tab.active {
+    background-color: #4a4a4a !important;
+}
+.plakker-pack-title {
+    color: #ffffff !important;
+}
+.plakker-popup-footer {
+    background-color: #454545 !important;
+}
+.plakker-tab:hover {
+    background-color: #4a4a4a !important;
+}
+.plakker-back-btn:hover {
+    background-color: #4a4a4a !important;
+}
+.plakker-bookmark-btn:hover {
+    background-color: #4a4a4a !important;
+}
+.plakker-close-btn:hover {
+    background-color: #4a4a4a !important;
+}
