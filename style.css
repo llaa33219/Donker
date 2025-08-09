@@ -10191,3 +10191,19 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .plakker-close-btn:hover {
     background-color: #4a4a4a !important;
 }
+.css-1qa3jqf::before {
+    background-color: rgb(60 60 60) !important;
+}
+.css-mzoed8 {
+    background-color: rgb(58 58 58) !important;
+    border: 1px solid rgb(58 58 58) !important;
+}
+.css-mzoed8 a {
+    color: rgb(255 255 255) !important;
+}
+.css-1o2u9f:not(.popup_make) {
+    background-color: rgb(9 9 9) !important;
+}
+.css-1wgzzov .e1l1swry0 input[type="text"], .css-1wgzzov .e1l1swry0 input[type="number"] {
+    background-color: rgb(53 53 53) !important;
+}

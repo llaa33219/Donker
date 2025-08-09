@@ -3727,3 +3727,9 @@ text.null.entryBoardObjectName {
     font-weight: bold;
     color: #FFF;
 }
+.css-3wzhiw {
+    background-color: rgb(58 58 58) !important;
+}
+.entryBoard > g > image {
+    filter: brightness(0.8) invert(1) !important;
+}
