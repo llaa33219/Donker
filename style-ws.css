@@ -3391,7 +3391,32 @@ text.null.entryBoardObjectName {
     color: #fff;
     background-color: #7255ee;
 }
+.section_container__IqIXC.summary_container__eJb8A .sheet_form_box__x8_pY .tab__Nbzvw .active__lsTWQ {
+    background-color: #7255ee;
+}
+.section_container__IqIXC.summary_container__eJb8A .sheet_form_box__x8_pY .tab__Nbzvw>a {
+    float: left;
+    overflow: hidden;
+    width: 70px;
+    height: 32px;
+    border-left: 1px solid #7255ee;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7255ee;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
 .section_container__IqIXC.chart_container__o3jMQ .sheet_form_box__x8_pY .tab__Nbzvw {
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    background-color: #292929;
+    vertical-align: top;
+}
+.section_container__IqIXC.summary_container__eJb8A .sheet_form_box__x8_pY .tab__Nbzvw {
     display: inline-block;
     overflow: hidden;
     box-sizing: border-box;
@@ -3732,4 +3757,40 @@ text.null.entryBoardObjectName {
 }
 .entryBoard > g > image {
     filter: brightness(0.8) invert(1) !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .container_inner__ChTW2 {
+    background-color: #1a1a1a !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .sheet_form_box__x8_pY .input__p3MhN {
+    border: 1px solid #3f3f3f !important;
+    background-color: #3d3d3d !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .inner__Lk_Gw {
+    border: 1px solid #494949 !important;
+    background-color: #171717 !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .table__rvFGU tbody td {
+    background-color: #060606 !important;
+    border-top: 1px solid #242424 !important;
+
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .table__rvFGU thead th, .section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .table__rvFGU tbody th {
+    background-color: #242424 !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .table_sjt__nmaUU>strong {
+    color: #ffffff !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .sheet_form_box__x8_pY .btn_save__mW5CO {
+    border: 1px solid #303030 !important;
+    background-color: #323232 !important;
+    color: #ffffff !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .chart_list__hU1UO li {
+    background-color: #252525 !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .chart_list__hU1UO li:before {
+    border: 1px solid #535353 !important;
+}
+.section_container__IqIXC.summary_container__eJb8A .chart_box__KypyK .category_box__NuUoz .chart_link__Dhz2v .title__E7JrG {
+    color: #ffffff !important;
 }
