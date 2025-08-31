@@ -10207,3 +10207,43 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
 .css-1wgzzov .e1l1swry0 input[type="text"], .css-1wgzzov .e1l1swry0 input[type="number"] {
     background-color: rgb(53 53 53) !important;
 }
+.css-1v1gtj5, .css-2ephht {
+    border: 1px solid rgb(88 88 88) !important;
+    background-color: rgb(87 87 87) !important;
+    transition: all 0.3s ease !important;
+}
+.css-1v1gtj5:hover, .css-1v1gtj5:active, .css-2ephht:hover, .css-2ephht:active {
+    border: 1px solid rgb(68 68 68) !important;
+    background-color: rgb(67 67 67) !important;
+}
+.css-1gyu4rb, .css-76nm2a {
+    background-color: #7255ee !important;
+    border: 1px solid #7255ee !important;
+    transition: all 0.3s ease !important;
+}
+.css-1gyu4rb:hover, .css-1gyu4rb:active, .css-76nm2a:hover, .css-76nm2a:active {
+    background-color: #533fac !important;
+    border: 1px solid #533fac !important;
+}
+.css-1h18oc0 {
+    border: 1px solid rgb(73 73 73) !important;
+    background-color: rgb(66 66 66) !important;
+    color: rgb(255 255 255) !important;
+}
+.css-1k1u2e8 {
+    border: 1px solid rgb(73 73 73) !important;
+    background-color: rgb(66 66 66) !important;
+    color: rgb(255 255 255) !important;
+}
+.css-11m0hyg {
+    border-color: rgb(255, 255, 255) rgb(73 73 73) rgb(73 73 73) !important;
+    background-color: rgb(66 66 66) !important;
+    color: rgb(255 255 255) !important;
+}
+.css-pk91oo textarea {
+    background-color: rgb(41 41 41) !important;
+}
+.css-o2gew4 {
+    border: 1px solid rgb(36 36 36) !important;
+    background-color: rgb(32 32 32) !important;
+}
