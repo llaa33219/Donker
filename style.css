@@ -10247,3 +10247,19 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border: 1px solid rgb(36 36 36) !important;
     background-color: rgb(32 32 32) !important;
 }
+.se-body .se-color-swatches-label {
+    color: #ffffff !important;
+}
+.se-body .se-toolbar-option {
+    background-color: #262626 !important;
+}
+.css-fdi34k {
+    border: 1px solid rgb(88 88 88) !important;
+    background-color: rgb(87 87 87) !important;
+    transition: all 0.3s ease !important;
+    color: #ffffff !important;
+}
+.css-fdi34k:hover, .css-fdi34k:active {
+    border: 1px solid rgb(68 68 68) !important;
+    background-color: rgb(67 67 67) !important;
+}
