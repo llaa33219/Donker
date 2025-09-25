@@ -10263,3 +10263,10 @@ body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     border: 1px solid rgb(68 68 68) !important;
     background-color: rgb(67 67 67) !important;
 }
+.css-hjaihh {
+    background-color: rgb(29 29 29) !important;
+}
+#unicodeStyleControls > * {
+    background-color: rgb(57 57 57) !important;
+    border: 1px solid rgb(61 61 61) !important;
+}
